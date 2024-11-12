@@ -1,0 +1,27 @@
+site_name: TinyLlama
+site_description: A collection of markdown encompasing documentation for each of the various TinyLlama projects.
+repo_url: https://github.com/t3hbeowulf/tinyllama-docs
+edit_uri: blob/main/docs/
+
+nav:
+  - Home: index.md
+  - ITX Llama: itxllama/index.md
+  - TinyLlama: tinyllama/index.md
+  - TinyLlama2: tinyllama2/index.md
+
+theme: 
+  name: mkdocs
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+  user_color_mode_toggle: true
+  color_mode: auto
+
+markdown_extensions:
+  - toc:
+      permalink: 
+  - attr_list
+  - def_list
+  - tables
