@@ -4,7 +4,8 @@ Below is a collection of hardware accessories that should work with the ITX Llam
 
 ## Optical Disc Drives
 
-1. SATA CD/DVD Drive - **WORKING**
+1. **SATA CD/DVD Drive**
+    * **Status:** Verified to work on ITX Llama
     * Connects directly to the onboard SATA port, appears as a standard optical disc drive.
     * Pros: 
         * Simple hook-up, no fuss
@@ -12,7 +13,8 @@ Below is a collection of hardware accessories that should work with the ITX Llam
     * Con: 
         * No CD-Audio (SATA ODD models do not have integrated CD Audio DACs)
         * Occupies only onboard SATA port
-2. IDE CD/DVD Drive - _requires an adapter_ - **WORKING**
+2. **IDE CD/DVD Drive** - _requires an adapter_
+    * **Status:** Verified to work on ITX Llama
     * Connects to an IDE to SATA adapter and then to the onboard SATA port, appears as a standard optical disk drive.
     * Pros:
         * Has CD-Audio output which can be passed to the onboard Crystal sound card
@@ -21,10 +23,11 @@ Below is a collection of hardware accessories that should work with the ITX Llam
         * Requires an IDE to SATA adapter to function. (_ITX Llama has no onboard IDE_)
         * Drives are getting hard to find, old drives are beginning to fail due to age
     * Link(s):
-        * Adapter: https://www.amazon.com/Cablecc-Female-Converter-Adapter-Desktop/dp/B081YP2S5R
-3. ZuluIDE - _requires an adapter_
+        * Adapter: [IDE to Sata][IDEtoSata]
+3. **ZuluIDE** - _requires an adapter_
+    * **Status:** _requires testing as of 2024-11-21 but expected to work without issues_
     * Connects to an IDE to SATA adapter and then to the onboard SATA port
-    * Emulates a CD/DVD drive with ISO or BIN/CUE files stored on microSD card. (https://www.zuluide.com)
+    * Emulates a CD/DVD drive with ISO or BIN/CUE files stored on microSD card. [ZuluIDE Homepage][ZuluIDE]
     * Pros:
         * Has CD-Audio output for BIN/CUE files, which can be passed to the onboard Crystal sound card
         * No moving parts!
@@ -41,11 +44,20 @@ Below is a collection of hardware accessories that should work with the ITX Llam
     * Connects to a Floppy to USB adapter and to the rear USB ports.
     * Emulates a 720k/1.44MB Floppy drive with images stored on USB.
     * Link(s):
-      * Adapter: https://www.amazon.com/KOOBOOK-1-44MB-Floppy-Connector-Adapter/dp/B07WCRF9H3
+      * Adapter: [Floppy (34pin) to USB][FloppytoUSB]
+2. 3.5" Floppy Drive - _requires an adapter_
+    * Connects to a Floppy to USB adapter and to the rear USB ports.
+    * Link(s):
+      * Adapter: [Floppy (34pin) to USB][FloppytoUSB]
 
 ## External Joystick / MIDI Port
 
-1. DB15 to MIDI In/Out
-    * Link: https://www.serdashop.com/DB15MIDI
-1. DB15 Splitter (_for Joystick and MIDI_)
-    * Link: https://www.serdashop.com/DB15-Doubler-Solder-Kit
+1. Adapt [DB15 to MIDI In/Out][DB15toMIDI]
+1. [DB15 Splitter][DB15splitter] (_for Joystick and MIDI_)
+
+
+[ZuluIDE]: https://www.zuluide.com
+[IDEtoSata]: https://www.amazon.com/Cablecc-Female-Converter-Adapter-Desktop/dp/B081YP2S5R
+[FloppytoUSB]: https://www.amazon.com/KOOBOOK-1-44MB-Floppy-Connector-Adapter/dp/B07WCRF9H3
+[DB15toMIDI]: https://www.serdashop.com/DB15MIDI
+[DB15splitter]: https://www.serdashop.com/DB15-Doubler-Solder-Kit

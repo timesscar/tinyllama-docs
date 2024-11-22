@@ -3,14 +3,15 @@
 The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 computing had to offer, now reimagined into an ITX form-factor! For more information, visit the [Vogons thread][vogons-thread].
 
 <p>
-  <img src=images/overview.jpg title="ITX-Llama w/Vortex86EX SoM" width=50%>
+  <img src=images/overview.jpg title="ITX-Llama w/Vortex86EX SoM" width=75%>
 </p>
 
 ## Documentation Contents
 - [User's Guide](https://github.com/eivindbohler/itxllama/blob/main/README.md)
 - [FAQ](faq.md)
-- [Hardware Compatibility](compatibility-hw.md)
 - [Accessories](accessories.md)
+- [MIDI](midi.md)
+- [Hardware Compatibility](compatibility-hw.md)
 
 ## Specs
 - **CPU:** Designed specifically for the Vortex86EX System on Module:
