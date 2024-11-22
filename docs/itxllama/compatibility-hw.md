@@ -15,4 +15,4 @@
 | X16GS     | GM/GS Wavetable                 | Wavetable   | Fits but overlaps Pi headers |
 | OPL-3     | FM Synth                        | OPL Header  | Fits without issue           |
 | Pi Zero 2 | MT-32 / Soundfont               | GPIO Header | Fits without issue           |
-| Pi 4      | MT-32 / Soundfont / Nuked SC-55 | GPIO Header | Fits without issue           |
+| Pi 4      | MT-32 / Soundfont / Nuked SC-55 | GPIO Header | Fits when attached to a 40pin cable          |

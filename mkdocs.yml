@@ -5,9 +5,9 @@ edit_uri: blob/main/docs/
 
 nav:
   - Home: index.md
-  - ITX Llama: itxllama/index.md
   - TinyLlama: tinyllama/index.md
   - TinyLlama2: tinyllama2/index.md
+  - ITX Llama: itxllama/index.md
 
 theme: 
   name: mkdocs

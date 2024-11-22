@@ -8,7 +8,7 @@ Below is a breakdown of each option and several add-ons that are compatible.
 
 1. Out of the box, the Crystal CS4237B sound chip can emulate OPL-3 through its Crystal FM synthesis engine. This is a close approximation to a genuine Yamaha OPL-3 for most titles but has been known to fall short in certain cases. 
 1. The ITX Llama offers an OPL-3 header which accepts a [custom OPL-3 board][opl3module] containing an old-stock Yamaha YMF262-M FM synth chip. This will provide a geniune Yamaha OPL-3 sound for games utilizing FM Synthesis. 
-  * <img src=images/opl3module.jpg title="ITX-Llama w/Vortex86EX SoM" width=35%>
+  * <p><img src=../images/opl3module.jpg title="OPL3 Module" width=35%></p>
 
 ## Roland MT-32 Support
 
@@ -19,19 +19,19 @@ Below is a breakdown of each option and several add-ons that are compatible.
     * Additional features:
         * mt32-pi supports General MIDI using the FluidSynth engine and user-supplied sound fonts. ITX Llama users could techincally employ *just* the Pi Zero 2 with mt32-pi in addition to the OPL-3 module to cover nearly all bases of MIDI in early DOS games.
     * Installation:
-    * <img src=images/pi-zero2-alignment.jpg title="ITX-Llama w/Vortex86EX SoM" width=50%>
+    * <p><img src=../images/pi-zero2-alignment.jpg title="Pi Zero 2 Alignment" width=50%></p>
 
 2. A Raspberry Pi 4 can also be attached in lieu of the Pi Zero 2. This is a much more advanced option but opens the possibility of running a full OS with Munt, FluidSynth and a modified version of the nuked-SC-55 emulator for geniune Roland SC-55 sound support.
     * An IDE cable affixed to the pins on board below and to the Raspberry Pi 4 is necessary to use this feature. 
     * At this time, system setup for the Pi 4's OS is up to the user.
     * Pin Header: (_below the female Pi Zero 2 header_)
-    * <img src=images/som-alignment-1.jpg title="ITX-Llama w/Vortex86EX SoM" width=50%>
+    * <p><img src=../images/som-alignment-1.jpg title="ITX-Llama w/Vortex86EX SoM" width=50%></p>
 
 ## Wavetable MIDI Support
 
 1. The ITX Llama contains a Wavetable compatible header as well. This can be configured with a variety of Wavetable Synth modules to provide General MIDI support through the Crystal sound chip.
     * This header can be enabled via Jumpers: J25, J26, J27
-    * <img src=images/pi-wt.jpg title="PI/WT configuration" width=50%>
+    * <p><img src=../images/pi-wt.jpg title="PI/WT configuration" width=50%></p>
         * For using a Raspberry Pi (Zero2, 3 or 4) for converting MIDI to analog audio, place the three jumpers to the rightmost position ("PI").  
         * For using a wavetable board, place the jumpers to the leftmost position ("WT").
       
