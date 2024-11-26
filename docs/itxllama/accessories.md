@@ -55,6 +55,11 @@ Below is a collection of hardware accessories that should work with the ITX Llam
 1. Adapt [DB15 to MIDI In/Out][DB15toMIDI]
 1. [DB15 Splitter][DB15splitter] (_for Joystick and MIDI_)
 
+## Keyboard / Mouse
+
+1. Native PS/2 ports are provided for keyboard and mouse support
+1. Optionally, the PS/2 ports can be disabled and a pair of dedicated USB ports can adapt themselves to PS/2 internally.
+    * This allows modern USB peripherals to appear as PS/2 devices to the OS.
 
 [ZuluIDE]: https://www.zuluide.com
 [IDEtoSata]: https://www.amazon.com/Cablecc-Female-Converter-Adapter-Desktop/dp/B081YP2S5R
