@@ -8,6 +8,7 @@ nav:
   - TinyLlama: tinyllama/index.md
   - TinyLlama2: tinyllama2/index.md
   - ITX Llama: itxllama/index.md
+  - TinyLlama3: tinyllama3/index.md
 
 theme: 
   name: mkdocs
