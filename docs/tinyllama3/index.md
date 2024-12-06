@@ -14,8 +14,8 @@ coming soon
         - [...more information](https://www.vortex86.com/products/Vortex86EX)
 - **RAM:** 128MB DDR3
 - **Sound:** 
-    - Crystal Audio CS4237B for Soundblaster 16 emulation
-    - mt32pi for Roland MT-32 emulation
+    - PicoGUS
+    - munt on CM4/CM5
 
 ## Connectivity
 - USB-C for power
@@ -23,7 +23,7 @@ coming soon
 - 2 x USB Type-A connectors for storage devices (USB 2.0)
 - MicroSD slot for storage
 - DE-9 RS232 serial port (COM1)
-- Modem or Ethernet/SLIP over WiFi (COM2)
+- Modem emulation on CM4/CM5
 - Internal 2.54mm pin-header for connecting a fan (5V or 3.3V selectable)
 - 3.5mm line-out audio jack
 - MXM Slot for Graphic Cards
