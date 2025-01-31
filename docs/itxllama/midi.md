@@ -46,6 +46,7 @@ Below is a breakdown of each option and several add-ons that are compatible.
         * "GS" modules include a read-only licensed Roland GS sample set
     * Links:
         * [X8GS][X8GS] - High-end General Purpose MIDI Synth with customizable samples made exclusively for the ITX Llama
+
 1. **Dreamblaster X2 SE / X2GS SE / X2TE**
     * **Status:** _Tested to fit_
     * General Specs:

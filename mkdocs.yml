@@ -5,9 +5,13 @@ site_description: A collection of markdown encompassing documentation for each o
 
 nav:
   - Home: itxllama/index.md #index.md
+  - FAQ: itxllama/faq.md
+  - Accessories: itxllama/accessories.md
+  - MIDI: itxllama/midi.md
+  - Compatibility Matrix: itxllama/compatibility-matrix.md
   # - TinyLlama: tinyllama/index.md
   # - TinyLlama2: tinyllama2/index.md
-  - ITX Llama: itxllama/index.md
+#  - ITX Llama: itxllama/index.md
   # - TinyLlama3: tinyllama3/index.md
 
 theme: 

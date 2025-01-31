@@ -1,6 +1,6 @@
 # ITX Llama Hardware Configuration Tests
 
-## WIP: This page is intended to validate which hardware configurations have been tested to work on the ITX Llama. As test cases are added, their status and any known issues will be noted.
+ WIP: This page is intended to validate which hardware configurations have been tested to work on the ITX Llama. As test cases are added, their status and any known issues will be noted.
 
 ## Storage
 | Test             | Status  | Parts Required               | Notes                                     |
@@ -12,4 +12,6 @@
 | USB CD-ROM       | YES     | USB CD-ROM                   | Supported, bootable with Linux, DOS not bootable |
 | GamePort         | Limited | 2-axis, 2-button controller  | The GamePort on Rev. F shares pins with the S/PDIF output which limits functionality to 2-axis, 2-button controllers. Observed some issues with calibration in Windows 98 |
 | 
+
+
 ...more to come.
