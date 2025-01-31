@@ -6,6 +6,7 @@
 | ATI    | Radeon 7500 | y            | Works natively in DOS / Win98 |
 | ATI    | Radeon 9250 | y            | Works natively in DOS / Win98 |
 | 3DFx   | Voodoo3     | y            | Works natively in DOS / Win98 |
+| 3DFx   | Voodoo 5 5500 | y          | Works natively in DOS / Win98 |
 | nVidia | TNT         | y            | Works natively in DOS only    |
 | nVidia | TNT2        | y            | Works natively in DOS only    |
 | S3     | Savage4     | y            | Works natively in DOS only    |
