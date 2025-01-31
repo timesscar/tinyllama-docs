@@ -1,6 +1,6 @@
 # ITX-Llama Project
 
-The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 computing had to offer, now reimagined into an ITX form-factor! For more information, visit the [Vogons thread][vogons-thread].
+The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 computing had to offer, now re-imagined into an ITX form-factor! For more information, visit the [Vogons thread][vogons-thread].
 
 <p>
   <img src=images/overview.jpg title="ITX-Llama" width=75%>
@@ -32,12 +32,13 @@ The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 
         - Default: Dedicated onboard PS/2 keyboard/mouse ports accept legacy devices
     - PS/2 Keyboard and Mouse ports
 - Audio:
-    - Gameport/MPU-401 Interface port
+    - GamePort/MPU-401 Interface port
     - S/PDIF digital output port
     - Line-In / Line-Out / Mic-In ports
     - Internal header for optional genuine Yamaha OPL-3 
     - Internal header for Wavetable MIDI cards
     - Internal header for a Raspberry Pi Zero 2 to emulate Roland MT-32 [mt32pi][mt32-pi]
+    - Internal header for a Raspberry Pi 3b / 4 to emulate Roland MT-32 [mt32pi][mt32-pi]
 - Storage / Peripherals:
     - 2x USB 2.0 Host ports
     - SD card (on IDE Primary)

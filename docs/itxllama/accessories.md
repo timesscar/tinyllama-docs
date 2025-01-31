@@ -25,7 +25,7 @@ Below is a collection of hardware accessories that should work with the ITX Llam
     * Link(s):
         * Adapter: [IDE to Sata][IDEtoSata]
 3. **ZuluIDE** - _requires an adapter_
-    * **Status:** _requires testing as of 2024-11-21 but expected to work without issues_
+    * **Status:** Verified to work on ITX Llama
     * Connects to an IDE to SATA adapter and then to the onboard SATA port
     * Emulates a CD/DVD drive with ISO or BIN/CUE files stored on microSD card. [ZuluIDE Homepage][ZuluIDE]
     * Pros:
@@ -36,16 +36,21 @@ Below is a collection of hardware accessories that should work with the ITX Llam
         * Requires an IDE to SATA adapter to function. (_ITX Llama has no onboard IDE_)
         * Does not support copy-protected images
         * Has a very rudimentary image selection mechanism as of 2024-11-21.
+    * Add-ons:
+        * With a Pi Pico/DAC board populated with a Pi Pico W, you can add remote image management to the ZuluIDE
+        * The DAC board also enables passing CD Audio to the onboard Crystal sound chip
 
 
 ## Floppy Disk Drives
 
 1. GoTek Floppy Emulator - _requires an adapter_
+    * **Status:** As of 2025-01-30, this is NOT working on the ITX Llama
     * Connects to a Floppy to USB adapter and to the rear USB ports.
     * Emulates a 720k/1.44MB Floppy drive with images stored on USB.
     * Link(s):
       * Adapter: [Floppy (34pin) to USB][FloppytoUSB]
 2. 3.5" Floppy Drive - _requires an adapter_
+    * **Status:** As of 2025-01-30, this is NOT working on the ITX Llama
     * Connects to a Floppy to USB adapter and to the rear USB ports.
     * Link(s):
       * Adapter: [Floppy (34pin) to USB][FloppytoUSB]

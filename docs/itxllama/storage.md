@@ -2,7 +2,7 @@
 
 The ITX Llama provides several convenient options for installing your favorite version of DOS, Windows 3.1, and/or Windows 95/98. 
 
-With an onboard SATA port, you can use a SATA SSD or even an HDD for a more authentic speed and sound. There is a microSD card slot which BIOS intializes as a mass storage device, usable by DOS and Windows without special drivers. Two of the USB ports on the rear can be configured in "Removable mode" or "Mass Storage" mode as well. 
+With an onboard SATA port, you can use a SATA SSD or even an HDD for a more authentic speed and sound. There is a microSD card slot which BIOS initializes as a mass storage device, usable by DOS and Windows without special drivers. Two of the USB ports on the rear can be configured in "Removable mode" or "Mass Storage" mode as well. 
 
 ## Configuration Examples
 
