@@ -10,10 +10,11 @@ Below is a collection of hardware accessories that should work with the ITX Llam
     * Pros: 
         * Simple hook-up, no fuss
         * Drives are readily available for now
-    * Con: 
+    * Cons: 
         * No CD-Audio (SATA ODD models do not have integrated CD Audio DACs)
         * Occupies only onboard SATA port
-2. **IDE CD/DVD Drive** - _requires an adapter_
+
+1. **IDE CD/DVD Drive** - _requires an adapter_
     * **Status:** Verified to work on ITX Llama
     * Connects to an IDE to SATA adapter and then to the onboard SATA port, appears as a standard optical disk drive.
     * Pros:
@@ -24,7 +25,8 @@ Below is a collection of hardware accessories that should work with the ITX Llam
         * Drives are getting hard to find, old drives are beginning to fail due to age
     * Link(s):
         * Adapter: [IDE to Sata][IDEtoSata]
-3. **ZuluIDE** - _requires an adapter_
+
+1. **ZuluIDE** - _requires an adapter_
     * **Status:** Verified to work on ITX Llama
     * Connects to an IDE to SATA adapter and then to the onboard SATA port
     * Emulates a CD/DVD drive with ISO or BIN/CUE files stored on microSD card. [ZuluIDE Homepage][ZuluIDE]

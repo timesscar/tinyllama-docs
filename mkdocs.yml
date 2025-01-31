@@ -1,14 +1,14 @@
-site_name: TinyLlama
-site_description: A collection of markdown encompasing documentation for each of the various TinyLlama projects.
-repo_url: https://github.com/t3hbeowulf/tinyllama-docs
-edit_uri: blob/main/docs/
+site_name: TinyLlama - ITX Llama
+site_description: A collection of markdown encompassing documentation for each of the various TinyLlama projects.
+#repo_url: https://github.com/t3hbeowulf/tinyllama-docs
+#edit_uri: blob/main/docs/
 
 nav:
-  - Home: index.md
-  - TinyLlama: tinyllama/index.md
-  - TinyLlama2: tinyllama2/index.md
+  - Home: itxllama/index.md #index.md
+  # - TinyLlama: tinyllama/index.md
+  # - TinyLlama2: tinyllama2/index.md
   - ITX Llama: itxllama/index.md
-  - TinyLlama3: tinyllama3/index.md
+  # - TinyLlama3: tinyllama3/index.md
 
 theme: 
   name: mkdocs

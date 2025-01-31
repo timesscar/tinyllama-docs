@@ -1,6 +1,6 @@
 # ITX-Llama Project
 
-The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 computing had to offer, now re-imagined into an ITX form-factor! For more information, visit the [Vogons thread][vogons-thread].
+The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 computing had to offer, now re-imagined into an ITX form-factor! For more information, visit this [Vogons thread][vogons-thread].
 
 <p>
   <img src=images/overview.jpg title="ITX-Llama" width=75%>
