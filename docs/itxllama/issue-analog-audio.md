@@ -16,18 +16,14 @@ Batch #1 and #2 (thru Rev F) are down-mixing External Line-In and External Line-
 1. Identify the audio connector pins from underneath 
 1. Ensure the ITX-Llama is reasonably stable by pushing on the bottom of the audio connector. _The board should not move._
 1. Identify the Line-In pins 
-    <p>
-      <img src=images/issue001_identify-linein-pins.jpg title="Stereo Audio Remediation" width=50%>
-    </p>
+    <p><img src=../images/issue001_identify-linein-pins.jpg title="Stereo Audio Remediation" width=50%></p>
 1. Plug any 3.5mm cable into the blue Line-In jack _(this creates the short)_
 1. Test continuity between the two identified Line-In pins
 1. Using either the engraving pen with an abrasive tip OR an Xacto knife, break the trace visible between the two identified pins.
     * An engraving pen should sand/wear away the trace without digging too deep into the board. _(This will cause less wrist strain as well)_
     * An Xacto knife should be able to cut the trace by scratching it with medium pressure. **Do not gouge the board too deep!** 
     * It should look like this: 
-        <p>
-          <img src=images/issue001_linein-final-result.jpg title="Stereo Audio Line-In Remediation" width=25%>
-        </p>
+        <p><img src=../images/issue001_linein-final-result.jpg title="Stereo Audio Line-In Remediation" width=25%></p>
 1. Test continuity again between the two identified Line-In pins. 
     * If the drill was successful, there should not be any continuity. 
     * Repeat Steps 6 and 7 until the meter stops beeping, indicating continuity is broken. 
@@ -52,17 +48,13 @@ Batch #1 and #2 (thru Rev F) are down-mixing External Line-In and External Line-
 #### Drill: (repeat for each board)
 1. Place ITX-Llama upside down on a jig (if available), brace or vice and ensure it is reasonably stable and clamp it to a drill press table.
 1. Identify the Line-Out pins 
-    <p>
-      <img src=images/issue001_identify-lineout-pins.jpg title="Stereo Audio Remediation" width=50%>
-    </p>
+    <p><img src=../images/issue001_identify-lineout-pins.jpg title="Stereo Audio Remediation" width=50%></p>
 1. Test continuity between the two identified Line-Out pins 
 1. With the drill **OFF**, test plunging the drill and ensure the bit tip lands directly over the correct spot. Adjust the  position of the ITX-Llama and/or fence clamps until the bit touches the right spot on each plunge. _This should be a one-time operation if using a solid jig for the ITX-Llama to rest in._
 1. Once satisfied that the drill press plunges into the correct spot and the board is secure, turn **ON** the drill and make your hole.
 1. Test continuity between the two identified Line-Out pins 
     * If the drilling was successful, there should not be any continuity. 
     * If there is still continuity, use the pin vice and a 1mm bit to clear out the hole until the meter stops beeping, indicating continuity is broken. 
-      <p>
-        <img src=images/issue001_final-result.jpg title="Stereo Audio Remediation" width=50%>
-      </p>
+      <p><img src=../images/issue001_final-result.jpg title="Stereo Audio Remediation" width=50%></p>
 1. **Congratulations, you have restored stereo to the External Analog Line-Out Jack.**
 
