@@ -3,12 +3,12 @@
 Batch #1 and #2 (thru Rev F) are down-mixing External Line-In and External Line-Out analog connections to mono. Below details the remediation steps to restore stereo In/Out on the Blue and Green 3.5mm jacks.
 
 ### Tool Recommendations:
-* [AM ARROWMAX Mini Electric Engraving Pen, 36 Bits With Aluminum Case](https://a.co/d/fHLRN51)
-* [Xacto knife X-Acto Precision Utility Knife, Metal](https://a.co/d/3K4sjxv)
+* [X-Acto Precision Utility Knife, Metal](https://a.co/d/3K4sjxv)
 * [Benchtop Drill Press with 7-Speed CNC 795 Motor,flexible Soft Shaft Function,JTO Chuck for Precision Drilling](https://a.co/d/8muh7Dd)
 * [1mm drill bits: HARFINGTON 25pcs Micro Jobber Twist Drill Bits #59 1mm / 0.0394"](https://a.co/d/gHkjsV0)
-* [Pin vice (just in case): Mulwark Precision Pin Vise Hand Drill Set 25 Pcs](https://a.co/d/3Ijqc4d)
-* [Multimeter with "beep" continuity test: UNI-T UT210e Digital Clamp Meter](https://a.co/d/3cg1POw)
+* Optional: [Pin vice: Mulwark Precision Pin Vise Hand Drill Set 25 Pcs](https://a.co/d/3Ijqc4d)
+* Optional: [AM ARROWMAX Mini Electric Engraving Pen, 36 Bits With Aluminum Case](https://a.co/d/fHLRN51)
+* A multimeter with "beep" continuity test: [Example: UNI-T UT210e Digital Clamp Meter](https://a.co/d/3cg1POw)
 * Jig / brace for ITX-Llama board _(TBD if this really is needed)_
 
 ### Steps for fixing the External Analog Line-In Jack:
@@ -17,6 +17,7 @@ Batch #1 and #2 (thru Rev F) are down-mixing External Line-In and External Line-
 1. Ensure the ITX-Llama is reasonably stable by pushing on the bottom of the audio connector. _The board should not move._
 1. Identify the Line-In pins 
     <p><img src=../images/issue001_identify-linein-pins.jpg title="Stereo Audio Remediation" width=50%></p>
+    <p><img src=../images/issue001_identify-linein-highlight.jpg title="Line-In Remediation Highlight" width=50%></p>
 1. Plug any 3.5mm cable into the blue Line-In jack _(this creates the short)_
 1. Test continuity between the two identified Line-In pins
 1. Using either the engraving pen with an abrasive tip OR an Xacto knife, break the trace visible between the two identified pins.
@@ -48,9 +49,10 @@ Batch #1 and #2 (thru Rev F) are down-mixing External Line-In and External Line-
 #### Drill: (repeat for each board)
 1. Place ITX-Llama upside down on a jig (if available), brace or vice and ensure it is reasonably stable and clamp it to a drill press table.
 1. Identify the Line-Out pins 
-    <p><img src=../images/issue001_identify-lineout-pins.jpg title="Stereo Audio Remediation" width=50%></p>
+    <p><img src=../images/issue001_identify-lineout-pins.jpg title="Line-Out Pin Identification" width=50%></p>
 1. Test continuity between the two identified Line-Out pins 
 1. With the drill **OFF**, test plunging the drill and ensure the bit tip lands directly over the correct spot. Adjust the  position of the ITX-Llama and/or fence clamps until the bit touches the right spot on each plunge. _This should be a one-time operation if using a solid jig for the ITX-Llama to rest in._
+    <p><img src=../images/issue001_identify-lineout-highlight.jpg title="Line-Out Remediation Highlight" width=50%></p>
 1. Once satisfied that the drill press plunges into the correct spot and the board is secure, turn **ON** the drill and make your hole.
 1. Test continuity between the two identified Line-Out pins 
     * If the drilling was successful, there should not be any continuity. 
