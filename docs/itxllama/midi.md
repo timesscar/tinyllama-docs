@@ -27,6 +27,20 @@ Below is a breakdown of each option and several add-ons that are compatible.
     * Pin Header: (_below the female Pi Zero 2 header_)
     * <p><img src=../images/som-alignment-1.jpg title="Raspberry Pi 4 header pins visible" width=50%></p>
 
+3. There are a set of headers that allow connecting the an mt32pi Hardware UI (OLED, 4 buttons, optional rotary encoder). This header is connected to the correct GPIO pins on the Raspberry Pi headers to simplify adding a control mechanism. 
+    * This header uses the following 4 pins for an i2c based OLED or LCD display. [more info][mt32pi-oled-docs]
+    * The header uses the following pins, which are wired one-to-one to an i2c OLED display: 
+        * `SDA` (data), `SCL` (clock), `3v3` (VCC), `GND` (ground)
+        * Most OLED displays that specify i2c connections use these four pins.
+    * <p><img src=../images/pi-zero2-mt32-ui-header.jpg title="Raspberry Pi - mt32pi UI Header" width=50%></p>
+    * The remaining pins are designed for either buttons or a rotary encoder. [more info][mt32pi-control]
+        * `B1` and `B2` are "buttons" which control the Synth mode and ROM/Soundfont selection
+        * `B3` and `B4` can either be "buttons" or a rotary encoder. These control the output volume of the synth engine.
+        * A [rotary encoder can be connected][mt32pi-rotary-encoder] as follows: 
+            * `B3 --> DAT` 
+            * `B4--> CLK`
+            * `GND-->GND`
+
 ## Wavetable MIDI Support
 
 1. The ITX Llama contains a Wavetable compatible header as well. This can be configured with a variety of Wavetable Synth modules to provide General MIDI support through the Crystal sound chip.
@@ -77,3 +91,6 @@ Below is a breakdown of each option and several add-ons that are compatible.
 [X8GS]: https://retrodreams.ca/products/dreamblaster-x8gs-special-edition-wavetable-module-preorder-batch2
 [mt32-pi]: https://github.com/dwhinham/mt32-pi
 [opl3module]: https://retrodreams.ca/products/llama-opl3-module
+[mt32pi-oled-docs]: https://github.com/dwhinham/mt32-pi/wiki/LCD-and-OLED-displays
+[mt32pi-control]: https://github.com/dwhinham/mt32-pi/wiki/Control-surface
+[mt32pi-rotary-encoder]: https://github.com/dwhinham/mt32-pi/wiki/Control-surface#rotary-encoder
