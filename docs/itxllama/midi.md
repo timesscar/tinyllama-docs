@@ -12,7 +12,7 @@ Below is a breakdown of each option and several add-ons that are compatible.
 
 ## Roland MT-32 Support
 
-### Raspberry Pi Zero 2
+#### Raspberry Pi Zero 2
 
 A Raspberry Pi Zero 2 is capability of emulating a Roland MT-32 using the excellent Munt emulator. To facilitate this as a drop-in feature, the [mt32-pi][mt32-pi] project adds this functionality to a simple Pi Zero 2 and installed directly onto the ITX Llama. Audio is passed through an onboard DAC to the Crystal's Line In.
 
@@ -24,7 +24,7 @@ A Raspberry Pi Zero 2 is capability of emulating a Roland MT-32 using the excell
   * Installation:
   * <p><img src=../images/pi-zero2-alignment.jpg title="Pi Zero 2 Alignment" width=50%></p>
 
-### Raspberry Pi 4
+#### Raspberry Pi 4
 
 A Raspberry Pi 4 can also be attached in lieu of the Pi Zero 2. This is a much more advanced option but opens the possibility of running a full OS with Munt, FluidSynth and a modified version of the nuked-SC-55 emulator for genuine Roland SC-55 sound support.
 
@@ -33,9 +33,10 @@ A Raspberry Pi 4 can also be attached in lieu of the Pi Zero 2. This is a much m
   * Pin Header: (_below the female Pi Zero 2 header_)
   * <p><img src=../images/som-alignment-1.jpg title="Raspberry Pi 4 header pins visible" width=50%></p>
 
-### mt32pi Hardware UI
+#### mt32pi Hardware UI
 
 There are a set of headers that allow connecting the an mt32pi Hardware UI (OLED, 4 buttons, optional rotary encoder). This header is connected to the correct GPIO pins on the Raspberry Pi headers to simplify adding a control mechanism. 
+
   * The header uses the following pins, which are wired one-to-one to an i2c OLED display: [more info][mt32pi-oled-docs] 
     * `SDA` (data), `SCL` (clock), `3v3` (VCC), `GND` (ground)
     * Most OLED displays that specify i2c connections use these four pins.
@@ -44,9 +45,9 @@ There are a set of headers that allow connecting the an mt32pi Hardware UI (OLED
     * `B1` and `B2` are "buttons" which control the Synth mode and ROM/Soundfont selection
     * `B3` and `B4` can either be "buttons" or a rotary encoder. These control the output volume of the synth engine.
     * A [rotary encoder can be connected][mt32pi-rotary-encoder] as follows: 
-        * `B3 --> DAT` 
-        * `B4--> CLK`
-        * `GN~D-->GND`
+      * `B3 --> DAT` 
+      * `B4--> CLK`
+      * `GN~D-->GND`
 
 ## Wavetable MIDI Support
 
