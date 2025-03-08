@@ -4,74 +4,74 @@ Congratulations! You have chosen an excellent modern platform for experiencing m
 
 ## Unbox and Assembly
 
-Each ITX-Llama shipped from [Retrodreams.ca](https://retrodreams.ca/collections/all) should come with the following items installed:
+Each ITX-Llama shipped from [Retrodreams.ca][Retrodreams] should come with the following installed:
+
+* **Modem:** Wemos D1 Mini ESP8266 for "modem-over-WiFi"
+
+Optionally, you may have elected to include the following accessories:
 
 * Vortex86EX System-on-Module (CPU, RAM, L1/L2 Cache for your Llama)
-* Modem: Wemos D1 Mini ESP8266 for "modem-over-WiFi"
-
-Optionally, you may have elected to include the following items:
-
 * Raspberry Pi Zero 2 w/mt32pi installed
-* Dreamblaster X8GS Wavetable MIDI board
+* Dreamblaster X8GS Wavetable MIDI module
+* Yamaha OPL-3 Module
+* Official ITX-Llama case
 
-### Jumper Configuration
-The board should come preinstalled with all the jumpers necessary.  
-For changing the configuration, here's a quick walkthrough of the different jumpers and their functionality.
+### Accessories
 
-#### PS/2 or USB HID
-Jumpers: `J7`, `J12`, `J15`, `J16`
-<p>
-  <img src=../images/usb-ps2.jpg title="PS/2 configuration" width=35%>
-</p>
+1. Vortex86EX System-on-Module
+    * Contains the CPU, RAM, BIOS and NVRAM for settings
+    * <p>
+         <img src=../images/SoM-top.webp title="Vortex86EX" width=25%>
+         <img src=../images/SoM-bottom.webp title="Vortex86EX" width=29%>
+      </p>
+1. Yamaha OPL-3 MIDI Module
+    * Contains a genuine Yamaha OPL-3 FM Synthesis chip
+    * <p>
+         <img src=../images/OPL3-top.webp title="OPL3" width=25%>
+         <img src=../images/OPL3-bottom.webp title="OPL3" width=25%>
+      </p>
+1. Raspberry Pi Zero 2 w/mt32pi installed
+    * Emulates Roland MT-32/CM-32L 
+    * Supports General MIDI playback via Sound Fonts (*.sf2)
+    * <p>
+         <img src=../images/pi-zero2-close-up.webp title="mt32pi" width=25%>
+      </p>
+1. Dreamblaster X8GS Wavetable MIDI module
+    * Contains genuine licensed Roland SC-55 samples in ROM
+    * 128 voice polyphony, 1 GB of flash memory for samples
+    * <p>
+         <img src=../images/X8GS_top_wb.webp title="Dreamblaster" width=25%>
+         <img src=../images/X8GS_bottom_wb.webp title="Dreamblaster" width=25%>
+      </p>
+1. The Official ITX Llama Case
+    * Custom-designed and thoroughly tested to fit the ITX-Llama
+    * <p>
+         <img src=../images/itx-llama-case.webp title="itxllama case" width=25%>
+         <img src=../images/itx-llama-case-2.webp title="itxllama case" width=45%>
+      </p>
 
-* If you want to use a real PS/2 keyboard connected to the purple PS/2 port, place the two top-most jumpers (`J15` and `J16`) to the leftmost position ("PS/2"). For USB HID keyboard connected to one of the white USB ports (between the PS/2 and serial port), place the jumpers to the rightmost side ("USB").
-* If you want to use a real PS/2 mouse connected to the green PS/2 port, place the two bottom-most jumpers (`J7` and `J12`) to the left-most position ("PS/2"). For USB HID mouse connected to one of the white USB ports (between the PS/2 and serial port), place the jumpers to the rightmost side ("USB").
+## Jumper Configuration
 
-#### Line In
-Jumpers: `J39`, `J40`
-<p>
-  <img src=../images/line-in.jpg title="Line In" width=35%>
-</p>
+See [Configuring Jumpers](getting-started-jumpers.md) for detailed information on hardware configuration.
 
-* If you want to use an external audio source connected to the blue 3.5mm jack port, place both jumpers to the leftmost position ("EXT").  
-* To Select a Raspberry Pi Zero2 or Wavetable board as line-in to the sound card, place the two jumpers to the rightmost position ("INT").
+## First Boot Tour
 
-#### Pi or Wavetable
-
-Jumpers: `J26`, `J27` <br>
-_Note: Batch 2 - Rev F boards removed the Power jumper `J25`_
-<p>
-  <img src=../images/pi-wt.jpg title="PI/WT configuration" width=35%>
-</p>
-
-* To Select a Raspberry Pi (Zero2, 3 or 4) for converting MIDI to analog audio, place the two jumpers to the rightmost position ("PI").  
-* To Select a Wavetable board, place the jumpers to the leftmost position ("WT").
-
-#### Fans
-The Vortex86EX SOM doesn't draw much power, and shouldn't require active cooling if running at or below 300 MHz.  
-If you do wish to add one or more fans, the motherboard has three separately controllable 4-pin PWM fan connectors:
-<p>
-  <img src=../images/fan-1.jpg title="Fan header" width=35%>
-</p>
-Simply connect a modern 4-pin fan to one of these headers, and set the corresponding jumper to either 5V or 12V:
-<p>
-  <img src=../images/fan-2.jpg title="Fan configuration" width=35%>
-</p>
-
-Note: Take care **not** to supply 12V to a 5V fan - you'll likely fry it.
+See [First Boot](getting-started-firstboot.md) for what happens when you first boot your ITX-Llama
 
 ## Setup and Installation
 
-### MS-DOS Installation
-
-TODO: Fill this out
-
-### Windows 98 Installation
-
-TODO: Fill this out
+See [Setup](getting-started-setup.md) for detailed information on installing an operating system.
 
 
+[driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/CTMOUSE.EXE
+[driver-CWDMIX]: https://docs.retrodreams.ca/itxllama/DOS-utils/CWDMIX.EXE
+[driver-win98-CWD]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/CWD-v286-1998-itx-llama/CWD_DRVS.zip
+[driver-win98-R6040]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/r6040_win98/r6040_win98.zip
+[os-win98-part1]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_1.zip
+[os-win98-part2]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_2.zip
+[Retrodreams]: https://retrodreams.ca/collections/all
 [winworldpc-win98]: https://winworldpc.com/download/417d71c2-ae18-c39a-11c3-a4e284a2c3a5
 [vogons-thread]: https://www.vogons.org/viewtopic.php?t=93480
+[vogons-minidos]: https://www.vogons.org/viewtopic.php?**FIXME**
 [mt32-pi]: https://github.com/dwhinham/mt32-pi
 [mt32-pi-control]: https://github.com/gmcn42/mt32-pi-control/tree/main/dos_bin
