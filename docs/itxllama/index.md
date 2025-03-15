@@ -1,4 +1,4 @@
-# ITX-Llama Project
+# ITX-Llama - A modern Retro Computing Experience
 
 The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 computing had to offer, now re-imagined into an ITX form-factor! For more information, visit this [Vogons thread][vogons-thread].
 
@@ -7,12 +7,13 @@ The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 
 </p>
 
 ## Documentation Contents
-- [User's Guide](https://github.com/eivindbohler/itxllama/blob/main/README.md)
-- [FAQ](faq.md)
+- [Getting Started](getting-started.md)
 - [Accessories](accessories.md)
 - [MIDI](midi.md)
 - [Storage](storage.md)
 - [Hardware Compatibility Matrix](compatibility-matrix.md)
+- [FAQ](faq.md)
+- [Advanced User's Guide](https://github.com/eivindbohler/itxllama/blob/main/README.md)
 
 ## Specs
 - **CPU:** Designed specifically for the Vortex86EX System on Module:
@@ -48,6 +49,13 @@ The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 
     - Optional Wemos D1 Mini ESP8266 for "modem-over-WiFi"
 - Graphics:
     - Universal AGP 1x slot in "PCI Mode" running at 66MHz
+
+## Issues and Limitations
+- Batch #1 and #2 through Rev. F: GamePort joystick does not function as expected.
+    - [Click here](issue-gameport.md) for a workaround.
+- Batch #1 and #2 through Rev. F: Analog audio outputs force down-mix to mono sound.
+    - Batch #2 boards will be repaired before shipment.
+    - Batch #1 owners should reach out on Discord regarding options for repair.
 
 [vogons-thread]: https://www.vogons.org/viewtopic.php?t=93480
 [mt32-pi]: https://github.com/dwhinham/mt32-pi

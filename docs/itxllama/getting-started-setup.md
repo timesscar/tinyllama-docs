@@ -30,6 +30,11 @@ The following guide will help you get started with setting up an operating syste
 1. Ensure you're booting from "Windows 98 (DOS 7.1)" VFD by pressing `ESC` during start-up and selecting the Virtual Floppy image.
 1. Select the "Setup Windows 98" option.  _setup should begin._
 
+### FreeDOS SD Card Image (pre-loaded)
+1. Purchase an SD card from [Retrodreams.ca][Retrodreams-FreeDOS] preloaded with FreeDOS.
+2. Check out this [README](getting-started-freedos-sdcard.md)
+3. Insert the SD Card into your ITX-Llama and enjoy!
+
 
 [driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/CTMOUSE.EXE
 [driver-CWDMIX]: https://docs.retrodreams.ca/itxllama/DOS-utils/CWDMIX.EXE
@@ -38,8 +43,9 @@ The following guide will help you get started with setting up an operating syste
 [os-win98-part1]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_1.zip
 [os-win98-part2]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_2.zip
 [Retrodreams]: https://retrodreams.ca/collections/all
+[Retrodreams-FreeDOS]: https://retrodreams.ca/products/preloaded-microsd-card-with-freedos-goodies
 [winworldpc-win98]: https://winworldpc.com/download/417d71c2-ae18-c39a-11c3-a4e284a2c3a5
 [vogons-thread]: https://www.vogons.org/viewtopic.php?t=93480
-[vogons-minidos]: https://www.vogons.org/viewtopic.php?**FIXME**
+[vogons-minidos]: https://www.vogons.org/viewtopic.php?p=1307896#p1307896
 [mt32-pi]: https://github.com/dwhinham/mt32-pi
 [mt32-pi-control]: https://github.com/gmcn42/mt32-pi-control/tree/main/dos_bin

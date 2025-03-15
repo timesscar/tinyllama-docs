@@ -4,7 +4,7 @@ Congratulations! You have chosen an excellent modern platform for experiencing m
 
 ## Unbox and Assembly
 
-Each ITX-Llama shipped from [Retrodreams.ca][Retrodreams] should come with the following installed:
+Each ITX-Llama shipped from the [Retrodreams.ca Shop][Retrodreams] should come with the following installed:
 
 * **Modem:** Wemos D1 Mini ESP8266 for "modem-over-WiFi"
 
@@ -15,39 +15,46 @@ Optionally, you may have elected to include the following accessories:
 * Dreamblaster X8GS Wavetable MIDI module
 * Yamaha OPL-3 Module
 * Official ITX-Llama case
+* An SD card with FreeDOS preloaded
 
 ### Accessories
 
 1. Vortex86EX System-on-Module
-    * Contains the CPU, RAM, BIOS and NVRAM for settings
+    * Contains the CPU, chipset, RAM, BIOS and NVRAM for settings
     * <p>
          <img src=../images/SoM-top.webp title="Vortex86EX" width=25%>
          <img src=../images/SoM-bottom.webp title="Vortex86EX" width=29%>
       </p>
-1. Yamaha OPL-3 MIDI Module
-    * Contains a genuine Yamaha OPL-3 FM Synthesis chip
+2. Yamaha OPL-3 MIDI Module
+    * Supports high quality FM Synthesis using a genuine Yamaha OPL-3 synthesis chip
     * <p>
          <img src=../images/OPL3-top.webp title="OPL3" width=25%>
          <img src=../images/OPL3-bottom.webp title="OPL3" width=25%>
       </p>
-1. Raspberry Pi Zero 2 w/mt32pi installed
-    * Emulates Roland MT-32/CM-32L 
-    * Supports General MIDI playback via Sound Fonts (*.sf2)
+3. Raspberry Pi Zero 2 w/mt32pi installed
+    * Emulates Roland MT-32/CM-32L via Munt
+    * Supports General MIDI playback via Fluidsynth and Sound Fonts (*.sf2)
     * <p>
          <img src=../images/pi-zero2-close-up.webp title="mt32pi" width=25%>
       </p>
-1. Dreamblaster X8GS Wavetable MIDI module
+4. Dreamblaster X8GS Wavetable MIDI module
     * Contains genuine licensed Roland SC-55 samples in ROM
-    * 128 voice polyphony, 1 GB of flash memory for samples
+    * 128 voice polyphony, 1 GB of flash memory for additional samples
     * <p>
          <img src=../images/X8GS_top_wb.webp title="Dreamblaster" width=25%>
          <img src=../images/X8GS_bottom_wb.webp title="Dreamblaster" width=25%>
       </p>
-1. The Official ITX Llama Case
+5. The Official ITX Llama Case
     * Custom-designed and thoroughly tested to fit the ITX-Llama
     * <p>
          <img src=../images/itx-llama-case.webp title="itxllama case" width=25%>
          <img src=../images/itx-llama-case-2.webp title="itxllama case" width=45%>
+      </p>
+6. FreeDOS SD Card tuned for the ITX Llama
+    * Pre-loaded with FreeDOS v1.4 RC and tested to work on the ITX-Llama
+    * If you purchased an SD card, [click here](getting-started-freedos-sdcard.md) for an important message.
+    * <p>
+         <img src=../images/gs-freedos-sd.jpg title="itxllama case" width=35%>
       </p>
 
 ## Jumper Configuration
@@ -72,6 +79,6 @@ See [Setup](getting-started-setup.md) for detailed information on installing an 
 [Retrodreams]: https://retrodreams.ca/collections/all
 [winworldpc-win98]: https://winworldpc.com/download/417d71c2-ae18-c39a-11c3-a4e284a2c3a5
 [vogons-thread]: https://www.vogons.org/viewtopic.php?t=93480
-[vogons-minidos]: https://www.vogons.org/viewtopic.php?**FIXME**
+[vogons-minidos]: https://www.vogons.org/viewtopic.php?p=1307896#p1307896
 [mt32-pi]: https://github.com/dwhinham/mt32-pi
 [mt32-pi-control]: https://github.com/gmcn42/mt32-pi-control/tree/main/dos_bin
