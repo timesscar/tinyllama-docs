@@ -8,7 +8,7 @@ See [MS-DOS Setup Guide](getting-started-setup-dos.md)
 
 ### Windows 98 Installation
 
-See [Windows 98 Setup Guide]([getting-started-setup-win98.md)
+See [Windows 98 Setup Guide](getting-started-setup-win98.md)
 
 ### FreeDOS SD Card Image (pre-loaded)
 1. Purchase an SD card from [Retrodreams.ca][Retrodreams-FreeDOS] preloaded with FreeDOS.
