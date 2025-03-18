@@ -1,21 +1,28 @@
-# Getting Started with your ITX-Llama
+# Getting Started with your ITX-Llama - Setting up DOS
 
-The following set of guides aim to help you set up an operating system on your ITX-Llama. 
+The following guide will help you get started with setting up DOS on your ITX-Llama. 
 
 ### MS-DOS Installation
 
-See [MS-DOS Setup Guide](getting-started-setup-dos.md)
-
-### Windows 98 Installation
-
-See [Windows 98 Setup Guide]([getting-started-setup-win98.md)
+1. Choose your favorite VFD (Virtual Floppy Disc) in BIOS
+1. Insert a blank SD card (128GB or less is ideal), or SATA SSD
+1. Ensure you're booting from your chosen VFD by pressing `ESC` during start-up and selecting the Virtual Floppy image.
+1. Format your chosen fixed storage device as normal. See example below: 
+    * `A:> fdisk c:` _follow the prompts._ 
+      * Note: MS-DOS 6.22 is restricted to FAT16 out of the box and thus up to 4, 2GB partitions.
+    * `A:> format c: /s` _follow the prompts._
+    * `A:> copy *.* c:` 
+    * Adjust any file references in `autoexec.bat` / `config.sys` and reboot.
+1. As an alternative, the MiNiDOS VFD offers an install process which automates most of these steps.
 
 ### FreeDOS SD Card Image (pre-loaded)
 1. Purchase an SD card from [Retrodreams.ca][Retrodreams-FreeDOS] preloaded with FreeDOS.
 2. Check out this [README](getting-started-freedos-sdcard.md)
 3. Insert the SD Card into your ITX-Llama and enjoy!
 
+[Back to Setup](getting-started-setup.md) <br>
 [Back to Getting Started](getting-started.md)
+
 
 [driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/CTMOUSE.EXE
 [driver-CWDMIX]: https://docs.retrodreams.ca/itxllama/DOS-utils/CWDMIX.EXE

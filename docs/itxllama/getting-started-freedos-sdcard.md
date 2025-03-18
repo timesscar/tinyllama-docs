@@ -28,6 +28,7 @@ We sincerely appreciate your support and enthusiasm for classic computing. If yo
 **Best regards,** <br>
 **The RetroDreams Team**
 
+[Back to Getting Started](getting-started.md)
 
 [driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/CTMOUSE.EXE
 [driver-CWDMIX]: https://docs.retrodreams.ca/itxllama/DOS-utils/CWDMIX.EXE

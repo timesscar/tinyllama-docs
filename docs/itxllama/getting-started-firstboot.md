@@ -42,6 +42,7 @@ Beginning with this revision, here are a few features to help you get started.
     **Shout-out to MiNiDOS on VOGONs!** [-thread here-][vogons-minidos]
 * On this virtual disk, you will find a single-disc installer for MS-DOS 6.22 assembled by MiNiDOS on VOGONS. Additionally, this image was slightly customized for the IXT-Llama to include drivers for USB and SATA CD Drives.
 
+[Back to Getting Started](getting-started.md)
 
 [driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/CTMOUSE.EXE
 [driver-CWDMIX]: https://docs.retrodreams.ca/itxllama/DOS-utils/CWDMIX.EXE
