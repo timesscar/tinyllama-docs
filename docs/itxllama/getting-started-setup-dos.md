@@ -8,11 +8,13 @@ The following guide will help you get started with setting up DOS on your ITX-Ll
 1. Insert a blank SD card (128GB or less is ideal), or SATA SSD
 1. Ensure you're booting from your chosen VFD by pressing `ESC` during start-up and selecting the Virtual Floppy image.
 1. Format your chosen fixed storage device as normal. See example below: 
-    * `A:> fdisk c:` _follow the prompts._ 
+    * From the A: drive, run `fdisk c:` _follow the prompts._ 
       * Note: MS-DOS 6.22 is restricted to FAT16 out of the box and thus up to 4, 2GB partitions.
-    * `A:> format c: /s` _follow the prompts._
-    * `A:> copy *.* c:` 
-    * Adjust any file references in `autoexec.bat` / `config.sys` and reboot.
+    * From the A: drive, run `format c: /s` _follow the prompts._
+    * From the A: drive, run `copy *.* c:`
+    * Adjust any file references in `autoexec.bat` / `config.sys`.
+    * From the C: drive, run `fdisk /mbr` to ensure your C: drive is bootable.
+    * Reboot.
 1. As an alternative, the MiNiDOS VFD offers an install process which automates most of these steps.
 
 ### FreeDOS SD Card Image (pre-loaded)

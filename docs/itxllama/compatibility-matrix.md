@@ -5,11 +5,13 @@
 | :----: | :-----------: | :----------: | :---------------------------- |
 | ATI    | Radeon 7500   | y            | Works natively in DOS / Win98 |
 | ATI    | Radeon 9250   | y            | Works natively in DOS / Win98 |
-| 3DFx   | Voodoo3       | y            | Works natively in DOS / Win98 |
+| 3DFx   | Voodoo 3      | y            | Works natively in DOS / Win98 |
 | 3DFx   | Voodoo 5 5500 | y            | Works natively in DOS / Win98 |
+| nVidia | Riva 128      | y            | Works natively in DOS only    |
 | nVidia | TNT           | y            | Works natively in DOS only    |
 | nVidia | TNT2          | y            | Works natively in DOS only    |
 | S3     | Savage4       | y            | Works natively in DOS only    |
+| Matrox | G100          | y            | Works natively in DOS only    |
 
 ## Wavetable Options
 | Module    | MIDI Type                        | Connector   | Notes                                       |
