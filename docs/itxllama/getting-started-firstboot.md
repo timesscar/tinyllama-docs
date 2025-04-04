@@ -14,12 +14,13 @@ Beginning with this revision, here are a few features to help you get started.
     <img src=../images/bios-settings-disks-bootorder.png title="BIOS Settings - Boot Order" width=50%>
   </p>
 
-### (!) NOTE: USB as Fixed Disks Quirk
-
+> :memo: **USB as Fixed Disks Quirk**
 The "USB as Fixed Disks" feature is known to cause issues in Windows 98. Set "USB as Fixed Disks" to "Disabled" if you encounter difficulties with slowdowns, corrupt disks or graphical glitches. This means that Windows will need separate USB driver support to read/write from USB drives.
   * <p>
     <img src=../images/bios-settings-disks.png title="BIOS Settings - Boot Order" width=50%>
   </p>
+
+---
 
 ## Selecting a Virtual Floppy Disk (VFD)
 
