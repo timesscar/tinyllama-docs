@@ -7,3 +7,4 @@ This section will try to collect custom tips and tricks necessary for making you
 ## Games Index
 
 1. [GODS](gods.md)
+1. [SCUMMVM Titles](scummvm.md)
