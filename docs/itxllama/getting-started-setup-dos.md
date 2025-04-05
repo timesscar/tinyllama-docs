@@ -28,7 +28,10 @@ The following guide will help you get started with setting up DOS on your ITX-Ll
 
 ---
 
-### Drivers
+### DOS Drivers
+* [DOS Drivers](getting-started-setup.md#dos-drivers)
+
+---
 
 [Back to Setup](getting-started-setup.md) <br>
 [Back to Getting Started](getting-started.md)

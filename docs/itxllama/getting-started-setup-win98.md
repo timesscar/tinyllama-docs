@@ -2,6 +2,8 @@
 
 The following guide will help you get started with setting up Windows 98 on your ITX-Llama. 
 
+---
+
 ### Windows 98 Installation
 
 1. Prepare a Windows 98 CD.
@@ -15,6 +17,8 @@ The following guide will help you get started with setting up Windows 98 on your
 1. Restart your ITX-Llama
 1. Ensure you're booting from "Windows 98 (DOS 7.1)" VFD by pressing `ESC` during start-up and selecting the Virtual Floppy image.
 1. Select the "Setup Windows 98" option.  _setup should begin._
+
+---
 
 ### Windows 98 Installation to SATA Drive
 1. Prep SDCard as installer:
@@ -45,7 +49,14 @@ The following guide will help you get started with setting up Windows 98 on your
 1. Eject the SDCard, then reboot the system
 1. Windows should complete without any issues at this point. 
 
-The author of this section notes there are incompatibilities with the driver `esdi_506.pdr` when Windows 98 is being loaded. This issue is mitigated when the SDCard is removed. -- 03/17/2025 danifunker
+The author of this section notes there are incompatibilities with the driver `esdi_506.pdr` when Windows 98 is being loaded. This issue is mitigated when the SDCard is removed.
+
+---
+
+### Windows 98 Drivers
+* [Windows 98 Drivers](getting-started-setup.md#windows-98-drivers)
+
+---
 
 [Back to Setup](getting-started-setup.md) <br>
 [Back to Getting Started](getting-started.md)

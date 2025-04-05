@@ -78,6 +78,7 @@ See [First Boot](getting-started-firstboot.md) for what happens when you first b
 ## Setup and Installation
 
 See [Setup](getting-started-setup.md) for detailed information on installing an operating system.
+
 * [DOS Drivers](getting-started-setup.md#dos-drivers)
 * [Windows 98 Drivers](getting-started-setup.md#windows-98-drivers)
 * [Tools](getting-started-setup.md#tools)

@@ -11,8 +11,8 @@ nav:
     - Jumpers: itxllama/getting-started-jumpers.md
     - First Boot: itxllama/getting-started-firstboot.md
     - Setup: itxllama/getting-started-setup.md
-    - Setup DOS: itxllama/getting-started-dos.md
-    - Setup Windows 98: itxllama/getting-started-win98.md
+    - Setup DOS: itxllama/getting-started-setup-dos.md
+    - Setup Windows 98: itxllama/getting-started-setup-win98.md
   - FAQ: itxllama/faq.md
   - Accessories: itxllama/accessories.md
   - MIDI: itxllama/midi.md

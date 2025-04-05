@@ -12,6 +12,7 @@ The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 
 - [MIDI](midi.md)
 - [Storage](storage.md)
 - [Hardware Compatibility Matrix](compatibility-matrix.md)
+- [Games Compatibility](games/index.md)
 - [FAQ](faq.md)
 - [Advanced User's Guide](https://github.com/eivindbohler/itxllama/blob/main/README.md)
 
