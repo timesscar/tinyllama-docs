@@ -54,11 +54,11 @@ The author of this section notes there are incompatibilities with the driver `es
 ---
 
 ### Windows 98 Drivers
-* [Windows 98 Drivers](getting-started-setup.md#windows-98-drivers)
+* [Windows 98 Drivers](getting-started/setup.md#windows-98-drivers)
 
 ---
 
-[Back to Setup](getting-started-setup.md) <br>
+[Back to Setup](getting-started/setup.md) <br>
 [Back to Getting Started](getting-started.md)
 
 [os-win98-archive]: https://archive.org/details/win-98-1

@@ -6,19 +6,19 @@ The following set of guides aim to help you set up an operating system on your I
 
 ### MS-DOS Installation
 
-See [MS-DOS Setup Guide](getting-started-setup-dos.md)
+See [MS-DOS Setup Guide](getting-started/setup-dos.md)
 
 ---
 
 ### Windows 98 Installation
 
-See [Windows 98 Setup Guide](getting-started-setup-win98.md)
+See [Windows 98 Setup Guide](getting-started/setup-win98.md)
 
 ---
 
 ### FreeDOS SD Card Image (pre-loaded)
 1. Purchase an SD card from [Retrodreams.ca][Retrodreams-FreeDOS] preloaded with FreeDOS.
-2. Check out this [README](getting-started-freedos-sdcard.md)
+2. Check out this [README](getting-started/freedos-sdcard.md)
 3. Insert the SD Card into your ITX-Llama and enjoy!
 
 ---

@@ -56,7 +56,7 @@ Optionally, you may have elected to include the following accessories:
       </p>
 6. FreeDOS SD Card tuned for the ITX Llama
     * Pre-loaded with FreeDOS v1.4 RC and tested to work on the ITX-Llama
-    * If you purchased an SD card, [click here](getting-started-freedos-sdcard.md) for an important message.
+    * If you purchased an SD card, [click here](getting-started/freedos-sdcard.md) for an important message.
     * <p>
          <img src=../images/gs-freedos-sd.jpg title="itxllama case" width=35%>
       </p>
@@ -65,23 +65,23 @@ Optionally, you may have elected to include the following accessories:
 
 ## Jumper Configuration
 
-See [Configuring Jumpers](getting-started-jumpers.md) for detailed information on hardware configuration.
+See [Configuring Jumpers](getting-started/jumpers.md) for detailed information on hardware configuration.
 
 ---
 
 ## First Boot Tour
 
-See [First Boot](getting-started-firstboot.md) for what happens when you first boot your ITX-Llama
+See [First Boot](getting-started/firstboot.md) for what happens when you first boot your ITX-Llama
 
 ---
 
 ## Setup and Installation
 
-See [Setup](getting-started-setup.md) for detailed information on installing an operating system.
+See [Setup](getting-started/setup.md) for detailed information on installing an operating system.
 
-* [DOS Drivers](getting-started-setup.md#dos-drivers)
-* [Windows 98 Drivers](getting-started-setup.md#windows-98-drivers)
-* [Tools](getting-started-setup.md#tools)
+* [DOS Drivers](getting-started/setup.md#dos-drivers)
+* [Windows 98 Drivers](getting-started/setup.md#windows-98-drivers)
+* [Tools](getting-started/setup.md#tools)
 
 [Retrodreams]: https://retrodreams.ca/collections/all
 [winworldpc-win98]: https://winworldpc.com/download/417d71c2-ae18-c39a-11c3-a4e284a2c3a5
