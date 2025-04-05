@@ -2,6 +2,8 @@
 
 Congratulations! You have chosen an excellent modern platform for experiencing many classic MS-DOS and early Windows 98 Games and software. The following guide will help you get started with setting up your ITX-Llama for the first time. 
 
+---
+
 ## Unbox and Assembly
 
 Each ITX-Llama shipped from the [Retrodreams.ca Shop][Retrodreams] should come with the following installed:
@@ -16,6 +18,8 @@ Optionally, you may have elected to include the following accessories:
 * Yamaha OPL-3 Module
 * Official ITX-Llama case
 * An SD card with FreeDOS preloaded
+
+---
 
 ### Accessories
 
@@ -57,25 +61,27 @@ Optionally, you may have elected to include the following accessories:
          <img src=../images/gs-freedos-sd.jpg title="itxllama case" width=35%>
       </p>
 
+---
+
 ## Jumper Configuration
 
 See [Configuring Jumpers](getting-started-jumpers.md) for detailed information on hardware configuration.
+
+---
 
 ## First Boot Tour
 
 See [First Boot](getting-started-firstboot.md) for what happens when you first boot your ITX-Llama
 
+---
+
 ## Setup and Installation
 
 See [Setup](getting-started-setup.md) for detailed information on installing an operating system.
+* [DOS Drivers](getting-started-setup.md#dos-drivers)
+* [Windows 98 Drivers](getting-started-setup.md#windows-98-drivers)
+* [Tools](getting-started-setup.md#tools)
 
-
-[driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/CTMOUSE.EXE
-[driver-CWDMIX]: https://docs.retrodreams.ca/itxllama/DOS-utils/CWDMIX.EXE
-[driver-win98-CWD]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/CWD-v286-1998-itx-llama/CWD_DRVS.zip
-[driver-win98-R6040]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/r6040_win98/r6040_win98.zip
-[os-win98-part1]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_1.zip
-[os-win98-part2]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_2.zip
 [Retrodreams]: https://retrodreams.ca/collections/all
 [winworldpc-win98]: https://winworldpc.com/download/417d71c2-ae18-c39a-11c3-a4e284a2c3a5
 [vogons-thread]: https://www.vogons.org/viewtopic.php?t=93480

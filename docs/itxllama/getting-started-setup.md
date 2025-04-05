@@ -44,18 +44,18 @@ See [Windows 98 Setup Guide](getting-started-setup-win98.md)
 
 [Back to Getting Started](getting-started.md)
 
-[driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/CTMOUSE.EXE
-[driver-PMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/PMOUSE.COM
-[tool-CWDMIX]: https://docs.retrodreams.ca/itxllama/DOS-utils/CWDMIX.EXE
-[tool-ANYBIOS]: https://docs.retrodreams.ca/itxllama/DOS-utils/ANYBIOS.EXE
-[tool-SLOWDOWN]: https://docs.retrodreams.ca/itxllama/DOS-utils/SLOWDOWN.ZIP
-[driver-TBPLUS-Full]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/TBPLUS/TBPLUS_FULL.zip
-[driver-win98-TBPLUS]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/TBPLUS/TBPLUS.zip
-[driver-win98-CWD]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/CWD-v286-1998-itx-llama/CWD_DRVS.zip
-[driver-win98-R6040]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/r6040_win98/r6040_win98.zip
-[driver-win98-USB]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/USB/nusb36e.exe
-[os-win98-part1]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_1.zip
-[os-win98-part2]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_2.zip
+[driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/CTMOUSE.EXE
+[driver-PMOUSE]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/PMOUSE.COM
+[tool-CWDMIX]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/CWDMIX.EXE
+[tool-ANYBIOS]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/ANYBIOS.EXE
+[tool-SLOWDOWN]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/SLOWDOWN.ZIP
+[driver-TBPLUS-Full]: https://docs.retrodreams.ca/itxllama/binaries/WIN98-drivers/TBPLUS/TBPLUS_FULL.zip
+[driver-win98-TBPLUS]: https://docs.retrodreams.ca/itxllama/binaries/WIN98-drivers/TBPLUS/TBPLUS.zip
+[driver-win98-CWD]: https://docs.retrodreams.ca/itxllama/binaries/WIN98-drivers/CWD-v286-1998-itx-llama/CWD_DRVS.zip
+[driver-win98-R6040]: https://docs.retrodreams.ca/itxllama/binaries/WIN98-drivers/r6040_win98/r6040_win98.zip
+[driver-win98-USB]: https://docs.retrodreams.ca/itxllama/binaries/WIN98-drivers/USB/nusb36e.exe
+[os-win98-part1]: https://docs.retrodreams.ca/itxllama/binaries/WIN98/WIN98_1.zip
+[os-win98-part2]: https://docs.retrodreams.ca/itxllama/binaries/WIN98/WIN98_2.zip
 [os-win98-archive]: https://archive.org/details/win-98-1
 [itxllama-repo]: https://github.com/eivindbohler/itxllama/archive/refs/heads/main.zip
 [Retrodreams]: https://retrodreams.ca/collections/all

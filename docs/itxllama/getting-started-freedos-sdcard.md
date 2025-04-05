@@ -30,12 +30,6 @@ We sincerely appreciate your support and enthusiasm for classic computing. If yo
 
 [Back to Getting Started](getting-started.md)
 
-[driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/CTMOUSE.EXE
-[driver-CWDMIX]: https://docs.retrodreams.ca/itxllama/DOS-utils/CWDMIX.EXE
-[driver-win98-CWD]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/CWD-v286-1998-itx-llama/CWD_DRVS.zip
-[driver-win98-R6040]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/r6040_win98/r6040_win98.zip
-[os-win98-part1]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_1.zip
-[os-win98-part2]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_2.zip
 [Retrodreams]: https://retrodreams.ca/collections/all
 [winworldpc-win98]: https://winworldpc.com/download/417d71c2-ae18-c39a-11c3-a4e284a2c3a5
 [vogons-thread]: https://www.vogons.org/viewtopic.php?t=93480

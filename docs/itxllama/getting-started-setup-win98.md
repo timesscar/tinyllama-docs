@@ -50,12 +50,6 @@ The author of this section notes there are incompatibilities with the driver `es
 [Back to Setup](getting-started-setup.md) <br>
 [Back to Getting Started](getting-started.md)
 
-[driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/CTMOUSE.EXE
-[driver-CWDMIX]: https://docs.retrodreams.ca/itxllama/DOS-utils/CWDMIX.EXE
-[driver-win98-CWD]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/CWD-v286-1998-itx-llama/CWD_DRVS.zip
-[driver-win98-R6040]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/r6040_win98/r6040_win98.zip
-[os-win98-part1]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_1.zip
-[os-win98-part2]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_2.zip
 [os-win98-archive]: https://archive.org/details/win-98-1
 [itxllama-repo]: https://github.com/eivindbohler/itxllama/archive/refs/heads/main.zip
 [Retrodreams]: https://retrodreams.ca/collections/all

@@ -14,8 +14,11 @@ Beginning with this revision, here are a few features to help you get started.
     <img src=../images/bios-settings-disks-bootorder.png title="BIOS Settings - Boot Order" width=50%>
   </p>
 
-> :memo: **USB as Fixed Disks Quirk**
-The "USB as Fixed Disks" feature is known to cause issues in Windows 98. Set "USB as Fixed Disks" to "Disabled" if you encounter difficulties with slowdowns, corrupt disks or graphical glitches. This means that Windows will need separate USB driver support to read/write from USB drives.
+---
+
+> ### USB as Fixed Disks Quirk
+
+  * The "USB as Fixed Disks" feature is known to cause issues in Windows 98. Set "USB as Fixed Disks" to "Disabled" if you encounter difficulties with slowdowns, corrupt disks or graphical glitches. This means that Windows will need separate USB driver support to read/write from USB drives.
   * <p>
     <img src=../images/bios-settings-disks.png title="BIOS Settings - Boot Order" width=50%>
   </p>
@@ -28,7 +31,7 @@ The "USB as Fixed Disks" feature is known to cause issues in Windows 98. Set "US
     <img src=../images/bios-settings-disks-vfds.png title="BIOS Settings - Boot Order" width=50%>
 </p>
 
-### VFD: "MS-DOS 6.22" (default)
+### VFD: "**MS-DOS 6.22**" (default)
 
 * This virtual floppy image is embedded in the system BIOS and contains many tools to help get you started with building an MS-DOS 6.22 system.
 * On this virtual disk, you will find drivers for a PS/2+Serial mouse, USB CD drivers, SATA CD Drivers and memory management tools designed to work with MS-DOS 6.22.
@@ -36,7 +39,7 @@ The "USB as Fixed Disks" feature is known to cause issues in Windows 98. Set "US
     <img src=../images/vfd-msdos-622.png title="MS-DOS 6.22 VFD" width=35%>
   </p>
 
-### VFD: "Windows 98 (DOS 7.1)"
+### VFD: "**Windows 98 (DOS 7.1)**"
 
 * This virtual floppy image is embedded in the system BIOS and contains many tools to help get you started building a Windows 98 and/or DOS 7.1 system.
 * On this virtual disk, you will find drivers for a PS/2+Serial mouse, USB CD drivers, SATA CD Drivers and memory management tools designed to work with MS-DOS 7.1.
@@ -44,7 +47,7 @@ The "USB as Fixed Disks" feature is known to cause issues in Windows 98. Set "US
     <img src=../images/vfd-windows-98.png title="Windows 98 VFD" width=35%>
   </p>
 
-### VFD: "MiNiDOS v0.21"
+### VFD: "**MiNiDOS 2025 v0.02.1**"
 
 * This virtual floppy image is embedded in the system BIOS a highly customized MS-DOS 6.22 single disc installer. <br>
     **Shout-out to MiNiDOS on VOGONs!** [-thread here-][vogons-minidos]
@@ -52,12 +55,6 @@ The "USB as Fixed Disks" feature is known to cause issues in Windows 98. Set "US
 
 [Back to Getting Started](getting-started.md)
 
-[driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/DOS-utils/CTMOUSE.EXE
-[driver-CWDMIX]: https://docs.retrodreams.ca/itxllama/DOS-utils/CWDMIX.EXE
-[driver-win98-CWD]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/CWD-v286-1998-itx-llama/CWD_DRVS.zip
-[driver-win98-R6040]: https://docs.retrodreams.ca/itxllama/WIN98-drivers/r6040_win98/r6040_win98.zip
-[os-win98-part1]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_1.zip
-[os-win98-part2]: https://docs.retrodreams.ca/itxllama/WIN98/WIN98_2.zip
 [Retrodreams]: https://retrodreams.ca/collections/all
 [winworldpc-win98]: https://winworldpc.com/download/417d71c2-ae18-c39a-11c3-a4e284a2c3a5
 [vogons-thread]: https://www.vogons.org/viewtopic.php?t=93480
