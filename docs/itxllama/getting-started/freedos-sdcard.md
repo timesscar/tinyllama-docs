@@ -28,7 +28,7 @@ We sincerely appreciate your support and enthusiasm for classic computing. If yo
 **Best regards,** <br>
 **The RetroDreams Team**
 
-[Back to Getting Started](getting-started.md)
+[Back to Getting Started](../getting-started.md)
 
 [Retrodreams]: https://retrodreams.ca/collections/all
 [winworldpc-win98]: https://winworldpc.com/download/417d71c2-ae18-c39a-11c3-a4e284a2c3a5

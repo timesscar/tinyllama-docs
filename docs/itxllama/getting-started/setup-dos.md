@@ -23,18 +23,18 @@ The following guide will help you get started with setting up DOS on your ITX-Ll
 
 ### FreeDOS SD Card Image (pre-loaded)
 1. Purchase an SD card from [Retrodreams.ca][Retrodreams-FreeDOS] preloaded with FreeDOS.
-2. Check out this [README](getting-started/freedos-sdcard.md)
+2. Check out this [README](freedos-sdcard.md)
 3. Insert the SD Card into your ITX-Llama and enjoy!
 
 ---
 
 ### DOS Drivers
-* [DOS Drivers](getting-started/setup.md#dos-drivers)
+* [DOS Drivers](setup.md#dos-drivers)
 
 ---
 
-[Back to Setup](getting-started/setup.md) <br>
-[Back to Getting Started](getting-started.md)
+[Back to Setup](setup.md) <br>
+[Back to Getting Started](../getting-started.md)
 
 
 [itxllama-repo]: https://github.com/eivindbohler/itxllama/archive/refs/heads/main.zip

@@ -53,7 +53,7 @@ Beginning with this revision, here are a few features to help you get started.
     **Shout-out to MiNiDOS on VOGONs!** [-thread here-][vogons-minidos]
 * On this virtual disk, you will find a single-disc installer for MS-DOS 6.22 assembled by MiNiDOS on VOGONS. Additionally, this image was slightly customized for the IXT-Llama to include drivers for USB and SATA CD Drives.
 
-[Back to Getting Started](getting-started.md)
+[Back to Getting Started](../getting-started.md)
 
 [Retrodreams]: https://retrodreams.ca/collections/all
 [winworldpc-win98]: https://winworldpc.com/download/417d71c2-ae18-c39a-11c3-a4e284a2c3a5

@@ -48,4 +48,4 @@ Simply connect a modern 4-pin fan to one of these headers, and set the correspon
 
 Note: Take care **not** to supply 12V to a 5V fan - you'll likely fry it.
 
-[Back to Getting Started](getting-started.md)
+[Back to Getting Started](../getting-started.md)

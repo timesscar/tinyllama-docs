@@ -6,19 +6,19 @@ The following set of guides aim to help you set up an operating system on your I
 
 ### MS-DOS Installation
 
-See [MS-DOS Setup Guide](getting-started/setup-dos.md)
+See [MS-DOS Setup Guide](setup-dos.md)
 
 ---
 
 ### Windows 98 Installation
 
-See [Windows 98 Setup Guide](getting-started/setup-win98.md)
+See [Windows 98 Setup Guide](setup-win98.md)
 
 ---
 
 ### FreeDOS SD Card Image (pre-loaded)
 1. Purchase an SD card from [Retrodreams.ca][Retrodreams-FreeDOS] preloaded with FreeDOS.
-2. Check out this [README](getting-started/freedos-sdcard.md)
+2. Check out this [README](freedos-sdcard.md)
 3. Insert the SD Card into your ITX-Llama and enjoy!
 
 ---
@@ -42,7 +42,7 @@ See [Windows 98 Setup Guide](getting-started/setup-win98.md)
 * [slowdown.zip][tool-SLOWDOWN] - DOS Utility for slowing the CPU down even further than the lowest clock selectable in BIOS.
 * [Large Drive Support w/Tools (tbplus)][driver-TBPLUS-Full] - Allows Windows 98SE to use hard drives larger than 1TB. (Full TBPlus Pack including DOS partitioning tools)
 
-[Back to Getting Started](getting-started.md)
+[Back to Getting Started](../getting-started.md)
 
 [driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/CTMOUSE.EXE
 [driver-PMOUSE]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/PMOUSE.COM
