@@ -1,4 +1,4 @@
-# ITX-Llama Hardware Compatibility
+# ITX-Llama - Hardware Compatibility Matrix
 
 ## Graphics
 | Family | Model         | Tested (y/n) | Notes                         |

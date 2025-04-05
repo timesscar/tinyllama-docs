@@ -1,4 +1,4 @@
-# Getting Started with your ITX-Llama
+# Getting Started - First Boot
 
 The following guide will give you a quick tour of a few BIOS settings to get you started. 
 

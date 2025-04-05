@@ -1,4 +1,4 @@
-# Getting Started with your ITX-Llama
+# Getting Started - Setting Up Your ITX-Llama
 
 The following set of guides aim to help you set up an operating system on your ITX-Llama. 
 

@@ -1,4 +1,4 @@
-# ITX Llama - Running ScummVM Games
+# ITX-Llama - Running ScummVM Games
 
 While starting Quest for Glory 4 (ScummVM), game startup takes a while and the mt32-pi gets "hung". 
 This guide will hopefully help you get games like this running on your ITX Llama.

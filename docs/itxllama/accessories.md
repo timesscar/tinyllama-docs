@@ -1,4 +1,4 @@
-# ITX Llama Accessories
+# ITX-Llama - Accessories
 
 Below is a collection of hardware accessories that should work with the ITX Llama in order turn it into an even more capable MS-DOS/Windows PC. If a device needs further testing, it will be noted.
 

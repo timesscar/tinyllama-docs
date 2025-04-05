@@ -1,4 +1,4 @@
-# Getting Started with your ITX-Llama - Setting up DOS
+# Getting Started - Setting up DOS
 
 The following guide will help you get started with setting up DOS on your ITX-Llama. 
 

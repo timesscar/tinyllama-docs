@@ -1,4 +1,4 @@
-# ITX-Llama - A modern Retro Computing Experience
+# ITX-Llama - Modern Retro Computing
 
 The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 computing had to offer, now re-imagined into an ITX form-factor! For more information, visit this [Vogons thread][vogons-thread].
 

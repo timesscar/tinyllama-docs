@@ -1,4 +1,4 @@
-# ITX-Llama FAQs
+# ITX-Llama - FAQs
 
 **Q: What do I need in addition to the ITX-Llama board?**
 : A: You'll need:

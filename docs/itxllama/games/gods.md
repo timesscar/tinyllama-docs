@@ -1,4 +1,4 @@
-# ITX Llama - Running GODS
+# ITX-Llama - Running GODS
 
 [GODS][GODS-wikipedia] is particularly challenging because it requires a slow CPU and MPU-401 Intelligent Mode to run properly. 
 This guide will hopefully help you get this running on your ITX Llama. 

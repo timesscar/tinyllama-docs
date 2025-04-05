@@ -1,4 +1,4 @@
-# ITX Llama MIDI Options
+# ITX-Llama - MIDI Options
 
 The ITX Llama is equipped with several distinct options for MIDI playback, including genuine OPL-3 via an add-in module, on-chip emulated OPL-3 provided by the Crystal sound chip, Wavetable header for general MIDI add-on modules and a pair of headers for attaching a Raspberry Pi running [mt32-pi][mt32-pi] for authentic Roland MT-32 support. 
 

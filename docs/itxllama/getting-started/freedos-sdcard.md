@@ -5,9 +5,13 @@ Dear Retro PC enthusiast,
 
 Thank you for purchasing this SD card preloaded with FreeDOS, applications, games, and demos! Your support means the world to us, and we truly appreciate your passion for retro computing.
 
+---
+
 ### About This SD Card
 
 This card has been prepared as a convenience for our customers, providing a ready-to-use FreeDOS environment along with a selection of software. We’ve included various applications and games to enhance your experience, but due to the nature of FreeDOS, some titles may require additional configuration or troubleshooting to function properly.
+
+---
 
 ## Important Notes
 

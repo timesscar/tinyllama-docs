@@ -1,4 +1,4 @@
-# Getting Started with your ITX-Llama - Setting up Windows 98
+# Getting Started - Setting up Windows 98
 
 The following guide will help you get started with setting up Windows 98 on your ITX-Llama. 
 
