@@ -16,8 +16,9 @@ nav:
   - FAQ: itxllama/faq.md
   - Accessories: itxllama/accessories.md
   - MIDI: itxllama/midi.md
-  - Compatibility Matrix: itxllama/compatibility-matrix.md
-  - GAMES: itxllama/games/index.md
+  - Compatibility:
+    - Hardware Matrix: itxllama/compatibility-matrix.md
+    - Games: itxllama/games/index.md
   # - TinyLlama: tinyllama/index.md
   # - TinyLlama2: tinyllama2/index.md
   # - ITX Llama: itxllama/index.md

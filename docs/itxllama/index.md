@@ -55,7 +55,7 @@ The ITX-Llama is a modern recreation of the best that late DOS/early Windows 98 
 - Batch #1 and #2 through Rev. F: GamePort joystick does not function as expected.
     - [Click here](issues/issue-gameport.md) for a workaround.
 - Batch #1 and #2 through Rev. F: Analog audio outputs force down-mix to mono sound.
-    - Batch #2 boards will be repaired before shipment.
+    - Batch #2 boards will be [repaired][issues/issue-analog-audio.md] before shipment.
     - Batch #1 owners should reach out on Discord regarding options for repair.
 
 [vogons-thread]: https://www.vogons.org/viewtopic.php?t=93480
