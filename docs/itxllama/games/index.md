@@ -8,3 +8,6 @@ This section will try to collect custom tips and tricks necessary for making you
 
 1. [GODS](gods.md)
 1. [SCUMMVM Titles](scummvm.md)
+
+---
+[Windows 98 game testing](winGameCompat.md)
