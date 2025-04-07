@@ -11,8 +11,8 @@ All games were tested with a Voodoo 3 3000, and the SOM set to 500mhz, with a pr
 | Diablo + hellfire | Good               |    |
 | Diablo 2 | Good               | Only patch up to 1.12a   |
 | Duke Nukem 3d | Good               |    |
-| Earth 2150 | Good               | Requires beta drivers for directx8 support.  Too slow to be playable.   |
-| Emperor:  Battle for Dune | Bad               |    |
+| Earth 2150 | Good               |   |
+| Emperor:  Battle for Dune | Bad               |  Requires beta drivers for directx8 support.  Too slow to be playable.   |
 | Fallout 2 | Good               | Zuluide install Crashes.  Install through daemon tools.   |
 | Grim Fandango | Good               | Playable, but audio is disorted.   |
 | Half Life | Good               |    |
