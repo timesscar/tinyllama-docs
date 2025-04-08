@@ -30,7 +30,7 @@
 | Star Trek: Elite Force | Poor               | Not enough ram to start without virtual memory.  Error on start (Hunk data failed to allocate 56 megs).  Game will attempt to start set to 32megs, but crashed.  Affects all quake3 games.   |
 | Star Trek: Armada | Good               |    |
 | Starcraft | Good               | only patch up to 1.161   |
-| System Shock 2 | Poor               |    |
+| System Shock 2 | Good               |    |
 | Thief | Good               |    |
 | Warcraft 2 | Good               |    |
 | Warcraft 3 | Bad               | RAM requirements are too high for the Llama. |
