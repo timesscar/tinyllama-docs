@@ -6,11 +6,14 @@
 | Aliens vs Predator | Good            |     |
 | Baldur's Gate | Good               |    |
 | Baldur's Gate 2 | Good               |    |
+| Command and Conquer - Tiberian Sun | Good               |  Patch to 2.03 to fix cd-rom bugs.  Some audio breakups.  |
 | Daggerfall | Good               |    |
 | Descent | Good               | Disable onboard controller port to avoid button 3 and 4 being pressed.   |
+| Descent 2 | Good               | |
 | Diablo + hellfire | Good               |    |
 | Diablo 2 | Good               | Only patch up to 1.12a   |
 | Duke Nukem 3d | Good               |    |
+| Dune 2000 | Good               |    |
 | Earth 2150 | Good               |   |
 | Emperor:  Battle for Dune | Bad               |  Requires beta drivers for directx8 support.  Too slow to be playable.   |
 | Fallout 2 | Good               | Zuluide install Crashes.  Install through daemon tools.   |
@@ -30,7 +33,7 @@
 | Star Trek: Elite Force | Poor               | Not enough ram to start without virtual memory.  Error on start (Hunk data failed to allocate 56 megs).  Game will attempt to start set to 32megs, but crashed.  Affects all quake3 games.   |
 | Star Trek: Armada | Good               |    |
 | Starcraft | Good               | only patch up to 1.161   |
-| System Shock 2 | Poor               |    |
+| System Shock 2 | Good               |    |
 | Thief | Good               |    |
 | Warcraft 2 | Good               |    |
 | Warcraft 3 | Bad               | RAM requirements are too high for the Llama. |
