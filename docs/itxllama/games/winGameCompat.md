@@ -6,11 +6,14 @@
 | Aliens vs Predator | Good            |     |
 | Baldur's Gate | Good               |    |
 | Baldur's Gate 2 | Good               |    |
+| Command and Conquer - Tiberian Sun | Good               |  Patch to 2.03 to fix cd-rom bugs.  |
 | Daggerfall | Good               |    |
 | Descent | Good               | Disable onboard controller port to avoid button 3 and 4 being pressed.   |
+| Descent 2 | Good               | |
 | Diablo + hellfire | Good               |    |
 | Diablo 2 | Good               | Only patch up to 1.12a   |
 | Duke Nukem 3d | Good               |    |
+| Dune 2000 | Good               |    |
 | Earth 2150 | Good               |   |
 | Emperor:  Battle for Dune | Bad               |  Requires beta drivers for directx8 support.  Too slow to be playable.   |
 | Fallout 2 | Good               | Zuluide install Crashes.  Install through daemon tools.   |
