@@ -6,7 +6,7 @@
 | Aliens vs Predator | Good            |     |
 | Baldur's Gate | Good               |    |
 | Baldur's Gate 2 | Good               |    |
-| Command and Conquer - Tiberian Sun | Good               |  Patch to 2.03 to fix cd-rom bugs.  |
+| Command and Conquer - Tiberian Sun | Good               |  Patch to 2.03 to fix cd-rom bugs.  Some audio breakups.  |
 | Daggerfall | Good               |    |
 | Descent | Good               | Disable onboard controller port to avoid button 3 and 4 being pressed.   |
 | Descent 2 | Good               | |
