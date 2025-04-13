@@ -9,6 +9,7 @@ nav:
   - Getting Started:
     - Unboxing: itxllama/getting-started.md
     - Jumpers: itxllama/getting-started/jumpers.md
+    - Case Assembly: itxllama/getting-started/case-assembly.md
     - First Boot: itxllama/getting-started/firstboot.md
     - Setup: itxllama/getting-started/setup.md
     - Setup DOS: itxllama/getting-started/setup-dos.md
