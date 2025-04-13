@@ -4,10 +4,14 @@ This section will try to collect custom tips and tricks necessary for making you
 
 ---
 
-## Games Index
+## Games Compatibility - MS-DOS / FreeDOS
+_Coming soon!_
+
+### Tweaks and Tips for specific DOS games
 
 1. [GODS](gods.md)
-1. [SCUMMVM Titles](scummvm.md)
+1. [ScummVM Titles](scummvm.md)
 
----
-[Windows 98 game testing](winGameCompat.md)
+## Games Compatibility - Windows 98  
+
+[Windows 98 - Tested Games](winGameCompat.md)
