@@ -1,6 +1,7 @@
 # Games Compatibility - Windows 98
 
-Legend: 
+### Legend: 
+
 * 🟩 - Runs at stock 300MHz clocks
 * 🟨 - Runs with tweaks and/or an overclock
 * 🟧 - Runs slow even with overclock or has minor issues
