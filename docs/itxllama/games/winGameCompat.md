@@ -30,6 +30,7 @@
 | Sacrifice | Bad               | Runs, but extremely slowly   |
 | Shogo | Good               | Original version is required, GoG version will not work.  Requires sound drivers to be installed.   |
 | Sim City 3000 | Good               |    |
+| StarLancer | Good | Install "Starlancer windows DSound Fix" to fix broken audio issue |
 | Star Trek: Elite Force | Poor               | Not enough ram to start without virtual memory.  Error on start (Hunk data failed to allocate 56 megs).  Game will attempt to start set to 32megs, but crashed.  Affects all quake3 games.   |
 | Star Trek: Armada | Good               |    |
 | Starcraft | Good               | only patch up to 1.161   |
