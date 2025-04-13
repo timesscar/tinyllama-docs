@@ -42,6 +42,21 @@ Below is a collection of hardware accessories that should work with the ITX Llam
         * With a Pi Pico/DAC board populated with a Pi Pico W, you can add remote image management to the ZuluIDE
         * The DAC board also enables passing CD Audio to the onboard Crystal sound chip
 
+1. **USBODE** 
+    * **Status:** Verified to work on ITX Llama
+    * Connects to a Raspberry Pi Zero 2 W / or Raspberry Pi Zero W through USB
+    * Emulates a CD/DVD drive with ISO files stored on microSD card. [USBODE Homepage][USBODE-PAGE]
+    * Pros:
+        * No moving parts!
+        * Fairly simple to hook up
+        * Simple Setup
+        * Uses inexpensive off-the shelf parts
+    * Cons:
+        * Does not support copy-protected images
+        * Requires Wi-Fi to utilize (change images via a webpage from a separate device, like a smartphone)
+        * Open Source project may have bugs
+    * Notes:
+        * The author of this project continues to work on it, and will hopefully provide a solution for CD Audio in the futur (this may require an addon)
 
 ## Floppy Disk Drives
 
@@ -69,6 +84,7 @@ Below is a collection of hardware accessories that should work with the ITX Llam
     * This allows modern USB peripherals to appear as PS/2 devices to the OS.
 
 [ZuluIDE]: https://www.zuluide.com
+[USBODE-PAGE]: https://github.com/danifunker/usbode
 [IDEtoSata]: https://www.amazon.com/Cablecc-Female-Converter-Adapter-Desktop/dp/B081YP2S5R
 [FloppytoUSB]: https://www.amazon.com/KOOBOOK-1-44MB-Floppy-Connector-Adapter/dp/B07WCRF9H3
 [DB15toMIDI]: https://www.serdashop.com/DB15MIDI
