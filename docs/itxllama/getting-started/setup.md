@@ -27,6 +27,7 @@ See [Windows 98 Setup Guide](setup-win98.md)
 
 * [ctmouse.exe][driver-CTMOUSE] - The venerable FreeDOS Mouse Driver - CTMouse! (v2.1b)
 * [pmouse.com][driver-PMOUSE] - A smaller, lighter sometimes more compatible alternative to CTMouse
+* [r6040dos.zip][driver-r6040dos] - (Optional) an R6040 Ethernet NDIS driver for DOS and Windows 3.1.
 
 ### Windows 98 Drivers
 
@@ -45,6 +46,7 @@ See [Windows 98 Setup Guide](setup-win98.md)
 [Back to Getting Started](../getting-started.md)
 
 [driver-CTMOUSE]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/CTMOUSE.EXE
+[driver-r6040dos]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/R6040DOS.ZIP
 [driver-PMOUSE]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/PMOUSE.COM
 [tool-CWDMIX]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/CWDMIX.EXE
 [tool-ANYBIOS]: https://docs.retrodreams.ca/itxllama/binaries/DOS-utils/ANYBIOS.EXE

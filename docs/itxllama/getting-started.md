@@ -8,7 +8,7 @@ Congratulations! You have chosen an excellent modern platform for experiencing m
 
 Each ITX-Llama shipped from the [Retrodreams.ca Shop][Retrodreams] should come with the following installed:
 
-* **Modem:** Wemos D1 Mini ESP8266 for "modem-over-WiFi"
+* **Modem:** Wemos D1 Mini ESP8266 for "modem-over-WiFi". Please review the [modem's manual][modem-manual]
 
 Optionally, you may have elected to include the following accessories:
 
@@ -89,3 +89,4 @@ See [Setup](getting-started/setup.md) for detailed information on installing an 
 [vogons-minidos]: https://www.vogons.org/viewtopic.php?p=1307896#p1307896
 [mt32-pi]: https://github.com/dwhinham/mt32-pi
 [mt32-pi-control]: https://github.com/gmcn42/mt32-pi-control/tree/main/dos_bin
+[modem-manual]: https://docs.retrodreams.ca/itxllama/binaries/MANUALS/MODEM.PDF

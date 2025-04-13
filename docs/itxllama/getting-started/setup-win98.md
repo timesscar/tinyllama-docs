@@ -23,7 +23,7 @@ The following guide will help you get started with setting up Windows 98 on your
 ### Windows 98 Installation to SATA Drive
 1. Prep SDCard as installer:
     a.  Extract ISO of windows 98 SE to root of SDCard
-    b.  Download copy of [this repository][itxllama-repo] and extract the ZIP file, place the folder itxllama-main onto the SDCard
+    b.  Download the [Windows 98 ITX-Llama Driver Pack][win98-driverpack] and extract the ZIP file, place the folder WIN98-DRV onto the SDCard
     c.  Place SDCard into ITX Llama
 1. Boot ITX Llama, change BIOS settings so SATA drive is first priority (F1 to enter BIOS)
 1. Under Disk Settings, (use the left and right arrow keys to switch between panes) set :
@@ -41,15 +41,15 @@ The following guide will help you get started with setting up Windows 98 on your
 1. Create a win98 folder on the C: (this will hold the installation files), `md C:\win98`
 1. Copy the files over, `xcopy /a /s *.* C:\win98 `
 1. Create a folder on the C: for the itx-llama patches (we will need to use these soon), `md C:\itxdrvs`
-1. Copy the files from the itx-llama patches folder to the C:, don’t leave the win98 folder: `xcopy /a/s \itxll~94\win98~19\*.* C:\itxdrvs\` (remember to use tab completion in order to auto-fill the folder names in correctly)
+1. Copy the files from the itx-llama patches folder to the C:, don’t leave the win98 folder: `xcopy /a/s \WIN98-DRV\*.* C:\itxdrvs\` (remember to use tab completion in order to auto-fill the folder names in correctly)
 1. Launch `setup.exe` in C:\win98 and complete the installation...
 1. The system will reboot from GUI install mode. This is where we need to install the ITX Llama drivers packages. When the system tells you to remove the floppy disks and reboot, during that reboot start pressing F8 to force Windows to bring up the boot menu. 
 1. Select `Safe-Mode Command Prompt Only` (Shift + F5)
-1. In the command prompt: `cd \itxdrvs` then `install C:\windows`
+1. In the command prompt: `cd \itxdrvs\tbplus` then `install C:\windows`
 1. Eject the SDCard, then reboot the system
 1. Windows should complete without any issues at this point. 
 
-The author of this section notes there are incompatibilities with the driver `esdi_506.pdr` when Windows 98 is being loaded. This issue is mitigated when the SDCard is removed.
+The author of this section notes there are incompatibilities with the driver `esdi_506.pdr` when Windows 98 is being loaded. This issue is caused when booting from an SSD, and an SDCard is inserted. In some configurations this issue can be resolved by creating an extended partition on the SSD. Otherwise, try to boot with the sdcard ejected.
 
 ---
 
@@ -62,6 +62,7 @@ The author of this section notes there are incompatibilities with the driver `es
 [Back to Getting Started](../getting-started.md)
 
 [os-win98-archive]: https://archive.org/details/win-98-1
+[win98-driverpack]: https://docs.retrodreams.ca/itxllama/binaries/WIN98-drivers/WIN98-DRV.ZIP
 [itxllama-repo]: https://github.com/eivindbohler/itxllama/archive/refs/heads/main.zip
 [Retrodreams]: https://retrodreams.ca/collections/all
 [Retrodreams-FreeDOS]: https://retrodreams.ca/products/preloaded-microsd-card-with-freedos-goodies
