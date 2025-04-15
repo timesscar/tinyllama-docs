@@ -53,7 +53,7 @@ There are a set of headers that allow connecting the an mt32pi Hardware UI (OLED
 
 1. The ITX Llama contains a Wavetable compatible header as well. This can be configured with a variety of Wavetable Synth modules to provide General MIDI support through the Crystal sound chip.
     * This header can be enabled via Jumpers: J25, J26, J27
-    * <p><img src=../images/pi-wt.jpg title="PI/WT configuration" width=50%></p>
+    * <p><img src=../../images/pi-wt.jpg title="PI/WT configuration" width=50%></p>
         * For using a Raspberry Pi (Zero2, 3 or 4) for converting MIDI to analog audio, place the three jumpers to the rightmost position ("PI").  
         * For using a wavetable board, place the jumpers to the leftmost position ("WT").
     * NOTE: In Rev. F, the J27 "Power" jumper was removed. Power is now supplied to both the Wavetable header and the Pi GPIO pins simultaneously.
