@@ -52,6 +52,44 @@ The following guide will help you get started with setting up Windows 98 on your
 The author of this section notes there are incompatibilities with the driver `esdi_506.pdr` when Windows 98 is being loaded. This issue is caused when booting from an SSD, and an SDCard is inserted. In some configurations this issue can be resolved by creating an extended partition on the SSD. Otherwise, try to boot with the sdcard ejected.
 
 ---
+### Modem Configuration
+After finalizing configuration of the Windows 98 installation, download the [mdmllama](Modem INF file) then complete the following instructions:
+1. Navigate to to system -> device manager
+1. Find the modem on com2, go to properties (if none is installed, go ahead and add a new unlisted modem, and point it to the `mdmllama.inf` which was downloaded earlier). Set the baud rate to `300 baud`
+1. Select update driver, browse to `mdmllama.inf` (downloaded above).
+Installing this driver will enable higher speeds baud speeds.
+1. Go into hyperterminal (under accessories)
+- By default the modem will be set to `300 baud`
+- set it to com2
+- turn flow control to xon/off (software)
+- connect 
+1. Type in the following commands into hyperterminal:
+`AT`
+<should respond with OK> 
+`AT$SSID=wifinetwork`
+`AT$PASS=wifipass `
+`ATC1`
+`AT$SB=115200
+1. disconnect hyperterminal
+1. Go back into device manager change settings to have baud of `115200 `
+1. reconnect in hyperterminal to verify the baud rate is set correctly.
+1. Once settings have been verified, save the settings with the following command
+`AT&W`
+1. Go to start -> accessories -> commmunications -> dialup networking 
+1. Create new connection 
+- number is PPP or 777 
+1. Save your connection 
+1. Double click to connect 
+
+---
+### Known Issues
+#### 256 Color Mode on ATI Cards
+There are known issues with the ATI drivers running on the ITX Llama when the driver is configured for 640x480 or 800x600 at 256 color depth. This issue appears in Windows 95, 98, 2000 and XP. A workaround driver has been included [ati-drivers-modified](here). The ITX Llama team is still analysing the issue and will provide updates here once any further findings are reported. Be aware there have been some reports of users after installing the ATI driver, even after shifting back to a Voodoo 3 card, where they continued to experience the 256 color mode bug.
+
+#### Running Sierra games through SCUMMVM
+SCUMMVM provides a mainline Windows 98 version still. That said, if running into audio issues, please add the following line to your autoexec.bat
+`set SDL_AUDIODRIVER=waveout`
+---
 
 ### Windows 98 Drivers
 * [Windows 98 Drivers](setup.md#windows-98-drivers)
@@ -71,3 +109,5 @@ The author of this section notes there are incompatibilities with the driver `es
 [vogons-minidos]: https://www.vogons.org/viewtopic.php?p=1307896#p1307896
 [mt32-pi]: https://github.com/dwhinham/mt32-pi
 [mt32-pi-control]: https://github.com/gmcn42/mt32-pi-control/tree/main/dos_bin
+[ati-drivers-modified]: https://docs.retrodreams.ca/itxllama/binaries/WIN98-drivers/llama-ATIDrivers-disable256Colors-6-2_wme_dd_cp_30314.zip
+[mdmllama]: https://docs.retrodreams.ca/itxllama/binaries/WIN98-drivers/mdmllama.inf

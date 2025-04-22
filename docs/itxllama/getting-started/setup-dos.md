@@ -33,6 +33,15 @@ The following guide will help you get started with setting up DOS on your ITX-Ll
 
 ---
 
+### Windows 3.1 Tips
+#### Video
+For users with ATI Raedon 9XXX cards, be aware that no drivers were produced that are compatible with these cards natively from ATI. The Microsoft provided SVGA are also incompatible with this Raedon cards. In order to achieve 256 colors or higher, please consider the project utilizing the [vbesvga](vbesvga.drv) project.
+
+#### Sound
+After installing the Windows 3.1 drivers for the Crystal Audio, be sure to set the IRQ to 7 (the drivers default it to 5). Do this in the autoexec.bat, as well as the system.ini file.
+
+---
+
 [Back to Setup](setup.md) <br>
 [Back to Getting Started](../getting-started.md)
 
@@ -45,3 +54,4 @@ The following guide will help you get started with setting up DOS on your ITX-Ll
 [vogons-minidos]: https://www.vogons.org/viewtopic.php?p=1307896#p1307896
 [mt32-pi]: https://github.com/dwhinham/mt32-pi
 [mt32-pi-control]: https://github.com/gmcn42/mt32-pi-control/tree/main/dos_bin
+[vbesvga]: https://github.com/PluMGMK/vbesvga.drv
