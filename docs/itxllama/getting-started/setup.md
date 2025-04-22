@@ -36,6 +36,25 @@ See [Windows 98 Setup Guide](setup-win98.md)
 * [Large Drive Support (tbplus) Patch][driver-win98-TBPLUS] - Windows 98 Patch for Large HDD support. (subset of TBPlus Pack)
 * [USB Removable Storage Driver][driver-win98-USB] - Windows 98 USB removable storage driver (nusb36e)
 
+---
+
+### Audio Setup
+For Windows 98/3.1/DOS, in order to get the proper sound setup (including mt32-pi/dreamblaster/OPL) be sure to install the crystal drivers onto your system, then add the following to the autoexec.bat (even on Windows 98):
+
+```
+SET BLASTER=A220 I7 D1 T5 P330
+C:\CRYSTAL\CWDMIX /M=13,13 /W=13,13 /L=13,13 /X=1 /F=13,13 /C=13,13 /I=L
+```
+
+This should resolve any audio issues, including optical out problems. Be aware the dreamblaster and mt32-pi are configured to come in as "line-in", so use that slider to adjust their volumes.
+
+---
+
+### Boot Managers
+While there are many boot managers that are available to use, in some configurations (specifically booting from SSD first, then MicroSD), please consider using the boot manager that is included with `xfdisk.exe` as part of the Windows 98 Setup VFD included with the BIOS. The author of this section had tested about 6 different boot managers, and this was the only one that was able to work correctly.
+
+---
+
 ### Tools
 
 * [cwdmix.exe][tool-CWDMIX] - DOS Utility for setting mixer levels for the Crystal 4237b sound chip.
