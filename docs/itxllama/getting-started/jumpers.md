@@ -29,7 +29,7 @@ Jumpers: `J39`, `J40`
 Jumpers: `J26`, `J27` <br>
 _Note: Batch 2 - Rev F boards removed the Power jumper `J25`_
 <p>
-  <img src=../images/pi-wt.jpg title="PI/WT configuration" width=35%>
+  <img src=../../images/pi-wt.jpg title="PI/WT configuration" width=35%>
 </p>
 
 * To Select a Raspberry Pi (Zero2, 3 or 4) for converting MIDI to analog audio, place the two jumpers to the rightmost position ("PI").  
